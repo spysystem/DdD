@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesFilterByShopIdResponse
 {
@@ -28,7 +28,7 @@ class GetWebshopArticlesFilterByShopIdResponse
 
     /**
      * @param string $GetWebshopArticlesFilterByShopIdResult
-     * @return \DdD\\Stock\GetWebshopArticlesFilterByShopIdResponse
+     * @return \DdD\Stock\GetWebshopArticlesFilterByShopIdResponse
      */
     public function setGetWebshopArticlesFilterByShopIdResult($GetWebshopArticlesFilterByShopIdResult)
     {

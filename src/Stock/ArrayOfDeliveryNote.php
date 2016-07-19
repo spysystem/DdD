@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfDeliveryNote implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfDeliveryNote implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param DeliveryNote[] $DeliveryNote
-     * @return \DdD\\Stock\ArrayOfDeliveryNote
+     * @return \DdD\Stock\ArrayOfDeliveryNote
      */
     public function setDeliveryNote(array $DeliveryNote = null)
     {

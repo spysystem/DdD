@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfArticleResponse implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfArticleResponse implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ArticleResponse[] $ArticleResponse
-     * @return \DdD\\Stock\ArrayOfArticleResponse
+     * @return \DdD\Stock\ArrayOfArticleResponse
      */
     public function setArticleResponse(array $ArticleResponse = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetTransactionsPagedResponse
 {
@@ -28,7 +28,7 @@ class GetTransactionsPagedResponse
 
     /**
      * @param ArrayOfKeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C $GetTransactionsPagedResult
-     * @return \DdD\\Sale\GetTransactionsPagedResponse
+     * @return \DdD\Sale\GetTransactionsPagedResponse
      */
     public function setGetTransactionsPagedResult($GetTransactionsPagedResult)
     {

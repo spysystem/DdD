@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetStockBySupplier
 {
@@ -49,7 +49,7 @@ class GetStockBySupplier
 
     /**
      * @param int $shopId
-     * @return \DdD\\Stock\GetStockBySupplier
+     * @return \DdD\Stock\GetStockBySupplier
      */
     public function setShopId($shopId)
     {
@@ -75,7 +75,7 @@ class GetStockBySupplier
 
     /**
      * @param \DateTime $date
-     * @return \DdD\\Stock\GetStockBySupplier
+     * @return \DdD\Stock\GetStockBySupplier
      */
     public function setDate(\DateTime $date)
     {
@@ -93,7 +93,7 @@ class GetStockBySupplier
 
     /**
      * @param int $supplierId
-     * @return \DdD\\Stock\GetStockBySupplier
+     * @return \DdD\Stock\GetStockBySupplier
      */
     public function setSupplierId($supplierId)
     {
@@ -111,7 +111,7 @@ class GetStockBySupplier
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetStockBySupplier
+     * @return \DdD\Stock\GetStockBySupplier
      */
     public function setPsk($psk)
     {

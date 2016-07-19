@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class StockCountSingleEanResponse
 {
@@ -28,7 +28,7 @@ class StockCountSingleEanResponse
 
     /**
      * @param ArrayOfKeyValueOflongint $StockCountSingleEanResult
-     * @return \DdD\\Stock\StockCountSingleEanResponse
+     * @return \DdD\Stock\StockCountSingleEanResponse
      */
     public function setStockCountSingleEanResult($StockCountSingleEanResult)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfCertificateResponse implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfCertificateResponse implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param CertificateResponse[] $CertificateResponse
-     * @return \DdD\\Sale\ArrayOfCertificateResponse
+     * @return \DdD\Sale\ArrayOfCertificateResponse
      */
     public function setCertificateResponse(array $CertificateResponse = null)
     {

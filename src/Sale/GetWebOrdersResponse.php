@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetWebOrdersResponse
 {
@@ -28,7 +28,7 @@ class GetWebOrdersResponse
 
     /**
      * @param ArrayOfWebOrder $GetWebOrdersResult
-     * @return \DdD\\Sale\GetWebOrdersResponse
+     * @return \DdD\Sale\GetWebOrdersResponse
      */
     public function setGetWebOrdersResult($GetWebOrdersResult)
     {

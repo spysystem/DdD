@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetKeyFiguresResponse
 {
@@ -28,7 +28,7 @@ class GetKeyFiguresResponse
 
     /**
      * @param ArrayOfKeyValueOfdateTimeKeyFigureszJ_S5Vm7C $GetKeyFiguresResult
-     * @return \DdD\\Sale\GetKeyFiguresResponse
+     * @return \DdD\Sale\GetKeyFiguresResponse
      */
     public function setGetKeyFiguresResult($GetKeyFiguresResult)
     {

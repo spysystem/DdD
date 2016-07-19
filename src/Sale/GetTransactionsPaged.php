@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetTransactionsPaged
 {
@@ -63,7 +63,7 @@ class GetTransactionsPaged
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetTransactionsPaged
+     * @return \DdD\Sale\GetTransactionsPaged
      */
     public function setClient($client)
     {
@@ -89,7 +89,7 @@ class GetTransactionsPaged
 
     /**
      * @param \DateTime $datefrom
-     * @return \DdD\\Sale\GetTransactionsPaged
+     * @return \DdD\Sale\GetTransactionsPaged
      */
     public function setDatefrom(\DateTime $datefrom)
     {
@@ -115,7 +115,7 @@ class GetTransactionsPaged
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetTransactionsPaged
+     * @return \DdD\Sale\GetTransactionsPaged
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -133,7 +133,7 @@ class GetTransactionsPaged
 
     /**
      * @param OrderableRowType $typeOfTransaction
-     * @return \DdD\\Sale\GetTransactionsPaged
+     * @return \DdD\Sale\GetTransactionsPaged
      */
     public function setTypeOfTransaction($typeOfTransaction)
     {
@@ -151,7 +151,7 @@ class GetTransactionsPaged
 
     /**
      * @param int $lastTransactionNumber
-     * @return \DdD\\Sale\GetTransactionsPaged
+     * @return \DdD\Sale\GetTransactionsPaged
      */
     public function setLastTransactionNumber($lastTransactionNumber)
     {
@@ -169,7 +169,7 @@ class GetTransactionsPaged
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetTransactionsPaged
+     * @return \DdD\Sale\GetTransactionsPaged
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class RetrySales
 {
@@ -35,7 +35,7 @@ class RetrySales
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\RetrySales
+     * @return \DdD\Sale\RetrySales
      */
     public function setClient($client)
     {
@@ -53,7 +53,7 @@ class RetrySales
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\RetrySales
+     * @return \DdD\Sale\RetrySales
      */
     public function setPsk($psk)
     {

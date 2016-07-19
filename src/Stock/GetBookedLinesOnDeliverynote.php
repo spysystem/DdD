@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetBookedLinesOnDeliverynote
 {
@@ -42,7 +42,7 @@ class GetBookedLinesOnDeliverynote
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetBookedLinesOnDeliverynote
+     * @return \DdD\Stock\GetBookedLinesOnDeliverynote
      */
     public function setClientid($clientid)
     {
@@ -60,7 +60,7 @@ class GetBookedLinesOnDeliverynote
 
     /**
      * @param string $deliverynote
-     * @return \DdD\\Stock\GetBookedLinesOnDeliverynote
+     * @return \DdD\Stock\GetBookedLinesOnDeliverynote
      */
     public function setDeliverynote($deliverynote)
     {
@@ -78,7 +78,7 @@ class GetBookedLinesOnDeliverynote
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetBookedLinesOnDeliverynote
+     * @return \DdD\Stock\GetBookedLinesOnDeliverynote
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class DeleteImages
 {
@@ -42,7 +42,7 @@ class DeleteImages
 
     /**
      * @param string $koncern
-     * @return \DdD\\Stock\DeleteImages
+     * @return \DdD\Stock\DeleteImages
      */
     public function setKoncern($koncern)
     {
@@ -60,7 +60,7 @@ class DeleteImages
 
     /**
      * @param string $name
-     * @return \DdD\\Stock\DeleteImages
+     * @return \DdD\Stock\DeleteImages
      */
     public function setName($name)
     {
@@ -78,7 +78,7 @@ class DeleteImages
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\DeleteImages
+     * @return \DdD\Stock\DeleteImages
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ValidateArticleFile
 {
@@ -56,7 +56,7 @@ class ValidateArticleFile
 
     /**
      * @param int $koncern
-     * @return \DdD\\Stock\ValidateArticleFile
+     * @return \DdD\Stock\ValidateArticleFile
      */
     public function setKoncern($koncern)
     {
@@ -74,7 +74,7 @@ class ValidateArticleFile
 
     /**
      * @param ArrayOfstring $lines
-     * @return \DdD\\Stock\ValidateArticleFile
+     * @return \DdD\Stock\ValidateArticleFile
      */
     public function setLines($lines)
     {
@@ -92,7 +92,7 @@ class ValidateArticleFile
 
     /**
      * @param int $levConvertList
-     * @return \DdD\\Stock\ValidateArticleFile
+     * @return \DdD\Stock\ValidateArticleFile
      */
     public function setLevConvertList($levConvertList)
     {
@@ -110,7 +110,7 @@ class ValidateArticleFile
 
     /**
      * @param int $grpConvertList
-     * @return \DdD\\Stock\ValidateArticleFile
+     * @return \DdD\Stock\ValidateArticleFile
      */
     public function setGrpConvertList($grpConvertList)
     {
@@ -128,7 +128,7 @@ class ValidateArticleFile
 
     /**
      * @param string $decimalSeparator
-     * @return \DdD\\Stock\ValidateArticleFile
+     * @return \DdD\Stock\ValidateArticleFile
      */
     public function setDecimalSeparator($decimalSeparator)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ValidateCertificateResponse
 {
@@ -28,7 +28,7 @@ class ValidateCertificateResponse
 
     /**
      * @param CertificateResponse $ValidateCertificateResult
-     * @return \DdD\\Sale\ValidateCertificateResponse
+     * @return \DdD\Sale\ValidateCertificateResponse
      */
     public function setValidateCertificateResult($ValidateCertificateResult)
     {

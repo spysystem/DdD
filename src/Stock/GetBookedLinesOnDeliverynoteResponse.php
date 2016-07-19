@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetBookedLinesOnDeliverynoteResponse
 {
@@ -28,7 +28,7 @@ class GetBookedLinesOnDeliverynoteResponse
 
     /**
      * @param ArrayOfArticleLine $GetBookedLinesOnDeliverynoteResult
-     * @return \DdD\\Stock\GetBookedLinesOnDeliverynoteResponse
+     * @return \DdD\Stock\GetBookedLinesOnDeliverynoteResponse
      */
     public function setGetBookedLinesOnDeliverynoteResult($GetBookedLinesOnDeliverynoteResult)
     {

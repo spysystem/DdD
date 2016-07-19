@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfStatus implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfStatus implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param Status[] $Status
-     * @return \DdD\\Sale\ArrayOfStatus
+     * @return \DdD\Sale\ArrayOfStatus
      */
     public function setStatus(array $Status = null)
     {

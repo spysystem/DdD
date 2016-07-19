@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaveWebshopOrder
 {
@@ -42,7 +42,7 @@ class SaveWebshopOrder
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\SaveWebshopOrder
+     * @return \DdD\Sale\SaveWebshopOrder
      */
     public function setClient($client)
     {
@@ -60,7 +60,7 @@ class SaveWebshopOrder
 
     /**
      * @param ArrayOfWebOrder $weborder
-     * @return \DdD\\Sale\SaveWebshopOrder
+     * @return \DdD\Sale\SaveWebshopOrder
      */
     public function setWeborder($weborder)
     {
@@ -78,7 +78,7 @@ class SaveWebshopOrder
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\SaveWebshopOrder
+     * @return \DdD\Sale\SaveWebshopOrder
      */
     public function setPsk($psk)
     {

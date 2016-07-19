@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaveSale
 {
@@ -35,7 +35,7 @@ class SaveSale
 
     /**
      * @param Sale $sale
-     * @return \DdD\\Sale\SaveSale
+     * @return \DdD\Sale\SaveSale
      */
     public function setSale($sale)
     {
@@ -53,7 +53,7 @@ class SaveSale
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\SaveSale
+     * @return \DdD\Sale\SaveSale
      */
     public function setPsk($psk)
     {

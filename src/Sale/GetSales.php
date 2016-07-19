@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetSales
 {
@@ -49,7 +49,7 @@ class GetSales
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetSales
+     * @return \DdD\Sale\GetSales
      */
     public function setClient($client)
     {
@@ -75,7 +75,7 @@ class GetSales
 
     /**
      * @param \DateTime $dateFrom
-     * @return \DdD\\Sale\GetSales
+     * @return \DdD\Sale\GetSales
      */
     public function setDateFrom(\DateTime $dateFrom)
     {
@@ -101,7 +101,7 @@ class GetSales
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetSales
+     * @return \DdD\Sale\GetSales
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -119,7 +119,7 @@ class GetSales
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetSales
+     * @return \DdD\Sale\GetSales
      */
     public function setPsk($psk)
     {

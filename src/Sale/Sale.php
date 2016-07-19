@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class Sale
 {
@@ -61,7 +61,7 @@ class Sale
 
     /**
      * @param int $ClientNumber
-     * @return \DdD\\Sale\Sale
+     * @return \DdD\Sale\Sale
      */
     public function setClientNumber($ClientNumber)
     {
@@ -87,7 +87,7 @@ class Sale
 
     /**
      * @param \DateTime $Date
-     * @return \DdD\\Sale\Sale
+     * @return \DdD\Sale\Sale
      */
     public function setDate(\DateTime $Date = null)
     {
@@ -109,7 +109,7 @@ class Sale
 
     /**
      * @param int $Employee
-     * @return \DdD\\Sale\Sale
+     * @return \DdD\Sale\Sale
      */
     public function setEmployee($Employee)
     {
@@ -127,7 +127,7 @@ class Sale
 
     /**
      * @param ArrayOfItemLine $ItemLines
-     * @return \DdD\\Sale\Sale
+     * @return \DdD\Sale\Sale
      */
     public function setItemLines($ItemLines)
     {
@@ -145,7 +145,7 @@ class Sale
 
     /**
      * @param int $NoteID
-     * @return \DdD\\Sale\Sale
+     * @return \DdD\Sale\Sale
      */
     public function setNoteID($NoteID)
     {
@@ -163,7 +163,7 @@ class Sale
 
     /**
      * @param ArrayOfPaymentLine $PaymentLines
-     * @return \DdD\\Sale\Sale
+     * @return \DdD\Sale\Sale
      */
     public function setPaymentLines($PaymentLines)
     {
@@ -181,7 +181,7 @@ class Sale
 
     /**
      * @param int $Terminal
-     * @return \DdD\\Sale\Sale
+     * @return \DdD\Sale\Sale
      */
     public function setTerminal($Terminal)
     {
@@ -199,7 +199,7 @@ class Sale
 
     /**
      * @param SaleType $Type
-     * @return \DdD\\Sale\Sale
+     * @return \DdD\Sale\Sale
      */
     public function setType($Type)
     {

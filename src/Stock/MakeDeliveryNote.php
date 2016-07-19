@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class MakeDeliveryNote
 {
@@ -42,7 +42,7 @@ class MakeDeliveryNote
 
     /**
      * @param DeliveryNote $dn
-     * @return \DdD\\Stock\MakeDeliveryNote
+     * @return \DdD\Stock\MakeDeliveryNote
      */
     public function setDn($dn)
     {
@@ -60,7 +60,7 @@ class MakeDeliveryNote
 
     /**
      * @param int $client
-     * @return \DdD\\Stock\MakeDeliveryNote
+     * @return \DdD\Stock\MakeDeliveryNote
      */
     public function setClient($client)
     {
@@ -78,7 +78,7 @@ class MakeDeliveryNote
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\MakeDeliveryNote
+     * @return \DdD\Stock\MakeDeliveryNote
      */
     public function setPsk($psk)
     {

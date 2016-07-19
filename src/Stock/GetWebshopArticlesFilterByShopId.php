@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesFilterByShopId
 {
@@ -42,7 +42,7 @@ class GetWebshopArticlesFilterByShopId
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetWebshopArticlesFilterByShopId
+     * @return \DdD\Stock\GetWebshopArticlesFilterByShopId
      */
     public function setClientid($clientid)
     {
@@ -60,7 +60,7 @@ class GetWebshopArticlesFilterByShopId
 
     /**
      * @param int $shopid
-     * @return \DdD\\Stock\GetWebshopArticlesFilterByShopId
+     * @return \DdD\Stock\GetWebshopArticlesFilterByShopId
      */
     public function setShopid($shopid)
     {
@@ -78,7 +78,7 @@ class GetWebshopArticlesFilterByShopId
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetWebshopArticlesFilterByShopId
+     * @return \DdD\Stock\GetWebshopArticlesFilterByShopId
      */
     public function setPsk($psk)
     {

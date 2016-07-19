@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class PriceChange
 {
@@ -42,7 +42,7 @@ class PriceChange
 
     /**
      * @param int $client
-     * @return \DdD\\Stock\PriceChange
+     * @return \DdD\Stock\PriceChange
      */
     public function setClient($client)
     {
@@ -60,7 +60,7 @@ class PriceChange
 
     /**
      * @param ArrayOfPriceChange $priceChanges
-     * @return \DdD\\Stock\PriceChange
+     * @return \DdD\Stock\PriceChange
      */
     public function setPriceChanges($priceChanges)
     {
@@ -78,7 +78,7 @@ class PriceChange
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\PriceChange
+     * @return \DdD\Stock\PriceChange
      */
     public function setPsk($psk)
     {

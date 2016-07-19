@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfArticleLineValidation implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfArticleLineValidation implements \ArrayAccess, \Iterator, \Countabl
 
     /**
      * @param ArticleLineValidation[] $ArticleLineValidation
-     * @return \DdD\\Stock\ArrayOfArticleLineValidation
+     * @return \DdD\Stock\ArrayOfArticleLineValidation
      */
     public function setArticleLineValidation(array $ArticleLineValidation = null)
     {

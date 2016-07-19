@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesPaged
 {
@@ -49,7 +49,7 @@ class GetWebshopArticlesPaged
 
     /**
      * @param int $groupId
-     * @return \DdD\\Stock\GetWebshopArticlesPaged
+     * @return \DdD\Stock\GetWebshopArticlesPaged
      */
     public function setGroupId($groupId)
     {
@@ -67,7 +67,7 @@ class GetWebshopArticlesPaged
 
     /**
      * @param int $shopid
-     * @return \DdD\\Stock\GetWebshopArticlesPaged
+     * @return \DdD\Stock\GetWebshopArticlesPaged
      */
     public function setShopid($shopid)
     {
@@ -85,7 +85,7 @@ class GetWebshopArticlesPaged
 
     /**
      * @param int $sinceEdbNumber
-     * @return \DdD\\Stock\GetWebshopArticlesPaged
+     * @return \DdD\Stock\GetWebshopArticlesPaged
      */
     public function setSinceEdbNumber($sinceEdbNumber)
     {
@@ -103,7 +103,7 @@ class GetWebshopArticlesPaged
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetWebshopArticlesPaged
+     * @return \DdD\Stock\GetWebshopArticlesPaged
      */
     public function setPsk($psk)
     {

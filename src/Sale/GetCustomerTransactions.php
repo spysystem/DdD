@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetCustomerTransactions
 {
@@ -56,7 +56,7 @@ class GetCustomerTransactions
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetCustomerTransactions
+     * @return \DdD\Sale\GetCustomerTransactions
      */
     public function setClient($client)
     {
@@ -82,7 +82,7 @@ class GetCustomerTransactions
 
     /**
      * @param \DateTime $datefrom
-     * @return \DdD\\Sale\GetCustomerTransactions
+     * @return \DdD\Sale\GetCustomerTransactions
      */
     public function setDatefrom(\DateTime $datefrom)
     {
@@ -108,7 +108,7 @@ class GetCustomerTransactions
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetCustomerTransactions
+     * @return \DdD\Sale\GetCustomerTransactions
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -126,7 +126,7 @@ class GetCustomerTransactions
 
     /**
      * @param string $customerNumber
-     * @return \DdD\\Sale\GetCustomerTransactions
+     * @return \DdD\Sale\GetCustomerTransactions
      */
     public function setCustomerNumber($customerNumber)
     {
@@ -144,7 +144,7 @@ class GetCustomerTransactions
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetCustomerTransactions
+     * @return \DdD\Sale\GetCustomerTransactions
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesPagedResponse
 {
@@ -28,7 +28,7 @@ class GetWebshopArticlesPagedResponse
 
     /**
      * @param string $GetWebshopArticlesPagedResult
-     * @return \DdD\\Stock\GetWebshopArticlesPagedResponse
+     * @return \DdD\Stock\GetWebshopArticlesPagedResponse
      */
     public function setGetWebshopArticlesPagedResult($GetWebshopArticlesPagedResult)
     {

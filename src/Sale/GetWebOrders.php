@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetWebOrders
 {
@@ -42,7 +42,7 @@ class GetWebOrders
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetWebOrders
+     * @return \DdD\Sale\GetWebOrders
      */
     public function setClient($client)
     {
@@ -60,7 +60,7 @@ class GetWebOrders
 
     /**
      * @param boolean $onlyOpen
-     * @return \DdD\\Sale\GetWebOrders
+     * @return \DdD\Sale\GetWebOrders
      */
     public function setOnlyOpen($onlyOpen)
     {
@@ -78,7 +78,7 @@ class GetWebOrders
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetWebOrders
+     * @return \DdD\Sale\GetWebOrders
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArticleAveragePriceResponse
 {
@@ -28,7 +28,7 @@ class ArticleAveragePriceResponse
 
     /**
      * @param float $ArticleAveragePriceResult
-     * @return \DdD\\Stock\ArticleAveragePriceResponse
+     * @return \DdD\Stock\ArticleAveragePriceResponse
      */
     public function setArticleAveragePriceResult($ArticleAveragePriceResult)
     {

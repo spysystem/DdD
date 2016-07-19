@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfint implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfint implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param int[] $int
-     * @return \DdD\\Stock\ArrayOfint
+     * @return \DdD\Stock\ArrayOfint
      */
     public function setInt(array $int = null)
     {

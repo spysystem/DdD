@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ShipmentConfirmationRequestModel
 {
@@ -44,7 +44,7 @@ class ShipmentConfirmationRequestModel
 
     /**
      * @param \DateTime $ConfirmationStart
-     * @return \DdD\\Stock\ShipmentConfirmationRequestModel
+     * @return \DdD\Stock\ShipmentConfirmationRequestModel
      */
     public function setConfirmationStart(\DateTime $ConfirmationStart = null)
     {
@@ -66,7 +66,7 @@ class ShipmentConfirmationRequestModel
 
     /**
      * @param string $InvoiceNo
-     * @return \DdD\\Stock\ShipmentConfirmationRequestModel
+     * @return \DdD\Stock\ShipmentConfirmationRequestModel
      */
     public function setInvoiceNo($InvoiceNo)
     {
@@ -84,7 +84,7 @@ class ShipmentConfirmationRequestModel
 
     /**
      * @param int $StoreNo
-     * @return \DdD\\Stock\ShipmentConfirmationRequestModel
+     * @return \DdD\Stock\ShipmentConfirmationRequestModel
      */
     public function setStoreNo($StoreNo)
     {

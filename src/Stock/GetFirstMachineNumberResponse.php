@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetFirstMachineNumberResponse
 {
@@ -28,7 +28,7 @@ class GetFirstMachineNumberResponse
 
     /**
      * @param int $GetFirstMachineNumberResult
-     * @return \DdD\\Stock\GetFirstMachineNumberResponse
+     * @return \DdD\Stock\GetFirstMachineNumberResponse
      */
     public function setGetFirstMachineNumberResult($GetFirstMachineNumberResult)
     {

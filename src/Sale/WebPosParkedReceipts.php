@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class WebPosParkedReceipts
 {
@@ -35,7 +35,7 @@ class WebPosParkedReceipts
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\WebPosParkedReceipts
+     * @return \DdD\Sale\WebPosParkedReceipts
      */
     public function setClient($client)
     {
@@ -53,7 +53,7 @@ class WebPosParkedReceipts
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\WebPosParkedReceipts
+     * @return \DdD\Sale\WebPosParkedReceipts
      */
     public function setPsk($psk)
     {

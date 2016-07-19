@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class TransactionHeader
 {
@@ -51,7 +51,7 @@ class TransactionHeader
 
     /**
      * @param int $ClientId
-     * @return \DdD\\Sale\TransactionHeader
+     * @return \DdD\Sale\TransactionHeader
      */
     public function setClientId($ClientId)
     {
@@ -69,7 +69,7 @@ class TransactionHeader
 
     /**
      * @param int $HeaderRowTypeAsInt
-     * @return \DdD\\Sale\TransactionHeader
+     * @return \DdD\Sale\TransactionHeader
      */
     public function setHeaderRowTypeAsInt($HeaderRowTypeAsInt)
     {
@@ -87,7 +87,7 @@ class TransactionHeader
 
     /**
      * @param string $Message
-     * @return \DdD\\Sale\TransactionHeader
+     * @return \DdD\Sale\TransactionHeader
      */
     public function setMessage($Message)
     {
@@ -105,7 +105,7 @@ class TransactionHeader
 
     /**
      * @param OrderableRowType $OrderedRowType
-     * @return \DdD\\Sale\TransactionHeader
+     * @return \DdD\Sale\TransactionHeader
      */
     public function setOrderedRowType($OrderedRowType)
     {
@@ -131,7 +131,7 @@ class TransactionHeader
 
     /**
      * @param \DateTime $TransactionDate
-     * @return \DdD\\Sale\TransactionHeader
+     * @return \DdD\Sale\TransactionHeader
      */
     public function setTransactionDate(\DateTime $TransactionDate = null)
     {
@@ -153,7 +153,7 @@ class TransactionHeader
 
     /**
      * @param ArrayOfTransactionRow $Transactions
-     * @return \DdD\\Sale\TransactionHeader
+     * @return \DdD\Sale\TransactionHeader
      */
     public function setTransactions($Transactions)
     {

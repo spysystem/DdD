@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfKeyValueOflongint implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfKeyValueOflongint implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param KeyValueOflongint[] $KeyValueOflongint
-     * @return \DdD\\Stock\ArrayOfKeyValueOflongint
+     * @return \DdD\Stock\ArrayOfKeyValueOflongint
      */
     public function setKeyValueOflongint(array $KeyValueOflongint = null)
     {

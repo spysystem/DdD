@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesInEdbNumberRange
 {
@@ -49,7 +49,7 @@ class GetWebshopArticlesInEdbNumberRange
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetWebshopArticlesInEdbNumberRange
+     * @return \DdD\Stock\GetWebshopArticlesInEdbNumberRange
      */
     public function setClientid($clientid)
     {
@@ -67,7 +67,7 @@ class GetWebshopArticlesInEdbNumberRange
 
     /**
      * @param int $fromEdbnumber
-     * @return \DdD\\Stock\GetWebshopArticlesInEdbNumberRange
+     * @return \DdD\Stock\GetWebshopArticlesInEdbNumberRange
      */
     public function setFromEdbnumber($fromEdbnumber)
     {
@@ -85,7 +85,7 @@ class GetWebshopArticlesInEdbNumberRange
 
     /**
      * @param int $toEdbnumber
-     * @return \DdD\\Stock\GetWebshopArticlesInEdbNumberRange
+     * @return \DdD\Stock\GetWebshopArticlesInEdbNumberRange
      */
     public function setToEdbnumber($toEdbnumber)
     {
@@ -103,7 +103,7 @@ class GetWebshopArticlesInEdbNumberRange
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetWebshopArticlesInEdbNumberRange
+     * @return \DdD\Stock\GetWebshopArticlesInEdbNumberRange
      */
     public function setPsk($psk)
     {

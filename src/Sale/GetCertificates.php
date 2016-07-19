@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetCertificates
 {
@@ -56,7 +56,7 @@ class GetCertificates
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetCertificates
+     * @return \DdD\Sale\GetCertificates
      */
     public function setClient($client)
     {
@@ -82,7 +82,7 @@ class GetCertificates
 
     /**
      * @param \DateTime $from
-     * @return \DdD\\Sale\GetCertificates
+     * @return \DdD\Sale\GetCertificates
      */
     public function setFrom(\DateTime $from)
     {
@@ -108,7 +108,7 @@ class GetCertificates
 
     /**
      * @param \DateTime $to
-     * @return \DdD\\Sale\GetCertificates
+     * @return \DdD\Sale\GetCertificates
      */
     public function setTo(\DateTime $to)
     {
@@ -134,7 +134,7 @@ class GetCertificates
 
     /**
      * @param \DateTime $usedBefore
-     * @return \DdD\\Sale\GetCertificates
+     * @return \DdD\Sale\GetCertificates
      */
     public function setUsedBefore(\DateTime $usedBefore)
     {
@@ -152,7 +152,7 @@ class GetCertificates
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetCertificates
+     * @return \DdD\Sale\GetCertificates
      */
     public function setPsk($psk)
     {

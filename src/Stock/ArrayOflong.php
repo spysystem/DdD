@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOflong implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOflong implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param long[] $long
-     * @return \DdD\\Stock\ArrayOflong
+     * @return \DdD\Stock\ArrayOflong
      */
     public function setLong(array $long = null)
     {

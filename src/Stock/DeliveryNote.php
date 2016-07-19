@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class DeliveryNote extends ArticleHeader
 {
@@ -69,7 +69,7 @@ class DeliveryNote extends ArticleHeader
 
     /**
      * @param \DateTime $DeliveryDate
-     * @return \DdD\\Stock\DeliveryNote
+     * @return \DdD\Stock\DeliveryNote
      */
     public function setDeliveryDate(\DateTime $DeliveryDate = null)
     {
@@ -91,7 +91,7 @@ class DeliveryNote extends ArticleHeader
 
     /**
      * @param string $DeliveryNoteId
-     * @return \DdD\\Stock\DeliveryNote
+     * @return \DdD\Stock\DeliveryNote
      */
     public function setDeliveryNoteId($DeliveryNoteId)
     {
@@ -109,7 +109,7 @@ class DeliveryNote extends ArticleHeader
 
     /**
      * @param int $ImportListNo
-     * @return \DdD\\Stock\DeliveryNote
+     * @return \DdD\Stock\DeliveryNote
      */
     public function setImportListNo($ImportListNo)
     {
@@ -127,7 +127,7 @@ class DeliveryNote extends ArticleHeader
 
     /**
      * @param boolean $IncludeZeroLinesInDraft
-     * @return \DdD\\Stock\DeliveryNote
+     * @return \DdD\Stock\DeliveryNote
      */
     public function setIncludeZeroLinesInDraft($IncludeZeroLinesInDraft)
     {
@@ -145,7 +145,7 @@ class DeliveryNote extends ArticleHeader
 
     /**
      * @param string $OrderReference
-     * @return \DdD\\Stock\DeliveryNote
+     * @return \DdD\Stock\DeliveryNote
      */
     public function setOrderReference($OrderReference)
     {
@@ -163,7 +163,7 @@ class DeliveryNote extends ArticleHeader
 
     /**
      * @param int $Recipient
-     * @return \DdD\\Stock\DeliveryNote
+     * @return \DdD\Stock\DeliveryNote
      */
     public function setRecipient($Recipient)
     {
@@ -181,7 +181,7 @@ class DeliveryNote extends ArticleHeader
 
     /**
      * @param boolean $SkipMatchOnItemgroupName
-     * @return \DdD\\Stock\DeliveryNote
+     * @return \DdD\Stock\DeliveryNote
      */
     public function setSkipMatchOnItemgroupName($SkipMatchOnItemgroupName)
     {
@@ -199,7 +199,7 @@ class DeliveryNote extends ArticleHeader
 
     /**
      * @param DeliveryNoteNoteState $State
-     * @return \DdD\\Stock\DeliveryNote
+     * @return \DdD\Stock\DeliveryNote
      */
     public function setState($State)
     {

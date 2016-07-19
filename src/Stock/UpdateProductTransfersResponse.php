@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class UpdateProductTransfersResponse
 {
@@ -28,7 +28,7 @@ class UpdateProductTransfersResponse
 
     /**
      * @param boolean $UpdateProductTransfersResult
-     * @return \DdD\\Stock\UpdateProductTransfersResponse
+     * @return \DdD\Stock\UpdateProductTransfersResponse
      */
     public function setUpdateProductTransfersResult($UpdateProductTransfersResult)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfKeyValueOfintArrayOfKeyValueOflongintty7Ep6D1 implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfKeyValueOfintArrayOfKeyValueOflongintty7Ep6D1 implements \ArrayAcce
 
     /**
      * @param KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1[] $KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
-     * @return \DdD\\Stock\ArrayOfKeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
+     * @return \DdD\Stock\ArrayOfKeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
      */
     public function setKeyValueOfintArrayOfKeyValueOflongintty7Ep6D1(array $KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1 = null)
     {

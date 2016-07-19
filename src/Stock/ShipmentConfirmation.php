@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ShipmentConfirmation
 {
@@ -36,7 +36,7 @@ class ShipmentConfirmation
 
     /**
      * @param ArrayOfConfirmation $Confirmations
-     * @return \DdD\\Stock\ShipmentConfirmation
+     * @return \DdD\Stock\ShipmentConfirmation
      */
     public function setConfirmations($Confirmations)
     {
@@ -54,7 +54,7 @@ class ShipmentConfirmation
 
     /**
      * @param string $StatusMessage
-     * @return \DdD\\Stock\ShipmentConfirmation
+     * @return \DdD\Stock\ShipmentConfirmation
      */
     public function setStatusMessage($StatusMessage)
     {
@@ -72,7 +72,7 @@ class ShipmentConfirmation
 
     /**
      * @param ShipmentConfirmationStatus $StatusType
-     * @return \DdD\\Stock\ShipmentConfirmation
+     * @return \DdD\Stock\ShipmentConfirmation
      */
     public function setStatusType($StatusType)
     {

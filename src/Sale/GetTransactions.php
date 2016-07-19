@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetTransactions
 {
@@ -56,7 +56,7 @@ class GetTransactions
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetTransactions
+     * @return \DdD\Sale\GetTransactions
      */
     public function setClient($client)
     {
@@ -82,7 +82,7 @@ class GetTransactions
 
     /**
      * @param \DateTime $datefrom
-     * @return \DdD\\Sale\GetTransactions
+     * @return \DdD\Sale\GetTransactions
      */
     public function setDatefrom(\DateTime $datefrom)
     {
@@ -108,7 +108,7 @@ class GetTransactions
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetTransactions
+     * @return \DdD\Sale\GetTransactions
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -126,7 +126,7 @@ class GetTransactions
 
     /**
      * @param OrderableRowType $typeOfTransaction
-     * @return \DdD\\Sale\GetTransactions
+     * @return \DdD\Sale\GetTransactions
      */
     public function setTypeOfTransaction($typeOfTransaction)
     {
@@ -144,7 +144,7 @@ class GetTransactions
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetTransactions
+     * @return \DdD\Sale\GetTransactions
      */
     public function setPsk($psk)
     {

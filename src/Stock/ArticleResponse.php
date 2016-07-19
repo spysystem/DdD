@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArticleResponse
 {
@@ -31,7 +31,7 @@ class ArticleResponse
 
     /**
      * @param string $Message
-     * @return \DdD\\Stock\ArticleResponse
+     * @return \DdD\Stock\ArticleResponse
      */
     public function setMessage($Message)
     {
@@ -49,7 +49,7 @@ class ArticleResponse
 
     /**
      * @param ArticleResponseStatus $Response
-     * @return \DdD\\Stock\ArticleResponse
+     * @return \DdD\Stock\ArticleResponse
      */
     public function setResponse($Response)
     {

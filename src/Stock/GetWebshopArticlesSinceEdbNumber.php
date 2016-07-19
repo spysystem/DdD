@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesSinceEdbNumber
 {
@@ -49,7 +49,7 @@ class GetWebshopArticlesSinceEdbNumber
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetWebshopArticlesSinceEdbNumber
+     * @return \DdD\Stock\GetWebshopArticlesSinceEdbNumber
      */
     public function setClientid($clientid)
     {
@@ -67,7 +67,7 @@ class GetWebshopArticlesSinceEdbNumber
 
     /**
      * @param int $shopId
-     * @return \DdD\\Stock\GetWebshopArticlesSinceEdbNumber
+     * @return \DdD\Stock\GetWebshopArticlesSinceEdbNumber
      */
     public function setShopId($shopId)
     {
@@ -85,7 +85,7 @@ class GetWebshopArticlesSinceEdbNumber
 
     /**
      * @param int $edbnumber
-     * @return \DdD\\Stock\GetWebshopArticlesSinceEdbNumber
+     * @return \DdD\Stock\GetWebshopArticlesSinceEdbNumber
      */
     public function setEdbnumber($edbnumber)
     {
@@ -103,7 +103,7 @@ class GetWebshopArticlesSinceEdbNumber
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetWebshopArticlesSinceEdbNumber
+     * @return \DdD\Stock\GetWebshopArticlesSinceEdbNumber
      */
     public function setPsk($psk)
     {

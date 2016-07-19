@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArticleHeader
 {
@@ -41,7 +41,7 @@ class ArticleHeader
 
     /**
      * @param int $ClientId
-     * @return \DdD\\Stock\ArticleHeader
+     * @return \DdD\Stock\ArticleHeader
      */
     public function setClientId($ClientId)
     {
@@ -67,7 +67,7 @@ class ArticleHeader
 
     /**
      * @param \DateTime $Date
-     * @return \DdD\\Stock\ArticleHeader
+     * @return \DdD\Stock\ArticleHeader
      */
     public function setDate(\DateTime $Date = null)
     {
@@ -89,7 +89,7 @@ class ArticleHeader
 
     /**
      * @param ArrayOfArticleLine $Lines
-     * @return \DdD\\Stock\ArticleHeader
+     * @return \DdD\Stock\ArticleHeader
      */
     public function setLines($Lines)
     {
@@ -107,7 +107,7 @@ class ArticleHeader
 
     /**
      * @param boolean $MatchOnEan
-     * @return \DdD\\Stock\ArticleHeader
+     * @return \DdD\Stock\ArticleHeader
      */
     public function setMatchOnEan($MatchOnEan)
     {

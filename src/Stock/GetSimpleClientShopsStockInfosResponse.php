@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetSimpleClientShopsStockInfosResponse
 {
@@ -28,7 +28,7 @@ class GetSimpleClientShopsStockInfosResponse
 
     /**
      * @param ArrayOfSimpleShopStockInfo $GetSimpleClientShopsStockInfosResult
-     * @return \DdD\\Stock\GetSimpleClientShopsStockInfosResponse
+     * @return \DdD\Stock\GetSimpleClientShopsStockInfosResponse
      */
     public function setGetSimpleClientShopsStockInfosResult($GetSimpleClientShopsStockInfosResult)
     {

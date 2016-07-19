@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesSinceLastRequest
 {
@@ -49,7 +49,7 @@ class GetWebshopArticlesSinceLastRequest
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetWebshopArticlesSinceLastRequest
+     * @return \DdD\Stock\GetWebshopArticlesSinceLastRequest
      */
     public function setClientid($clientid)
     {
@@ -67,7 +67,7 @@ class GetWebshopArticlesSinceLastRequest
 
     /**
      * @param int $shopid
-     * @return \DdD\\Stock\GetWebshopArticlesSinceLastRequest
+     * @return \DdD\Stock\GetWebshopArticlesSinceLastRequest
      */
     public function setShopid($shopid)
     {
@@ -85,7 +85,7 @@ class GetWebshopArticlesSinceLastRequest
 
     /**
      * @param boolean $deleteChanges
-     * @return \DdD\\Stock\GetWebshopArticlesSinceLastRequest
+     * @return \DdD\Stock\GetWebshopArticlesSinceLastRequest
      */
     public function setDeleteChanges($deleteChanges)
     {
@@ -103,7 +103,7 @@ class GetWebshopArticlesSinceLastRequest
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetWebshopArticlesSinceLastRequest
+     * @return \DdD\Stock\GetWebshopArticlesSinceLastRequest
      */
     public function setPsk($psk)
     {

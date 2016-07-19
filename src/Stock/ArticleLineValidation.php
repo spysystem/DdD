@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArticleLineValidation
 {
@@ -166,7 +166,7 @@ class ArticleLineValidation
 
     /**
      * @param string $CatalogueParameter1
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setCatalogueParameter1($CatalogueParameter1)
     {
@@ -184,7 +184,7 @@ class ArticleLineValidation
 
     /**
      * @param string $CatalogueParameter2
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setCatalogueParameter2($CatalogueParameter2)
     {
@@ -202,7 +202,7 @@ class ArticleLineValidation
 
     /**
      * @param string $CatalogueParameter3
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setCatalogueParameter3($CatalogueParameter3)
     {
@@ -220,7 +220,7 @@ class ArticleLineValidation
 
     /**
      * @param string $CatalogueParameter4
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setCatalogueParameter4($CatalogueParameter4)
     {
@@ -238,7 +238,7 @@ class ArticleLineValidation
 
     /**
      * @param string $CatalogueParameter5
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setCatalogueParameter5($CatalogueParameter5)
     {
@@ -256,7 +256,7 @@ class ArticleLineValidation
 
     /**
      * @param string $ClientNoRecipient
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setClientNoRecipient($ClientNoRecipient)
     {
@@ -274,7 +274,7 @@ class ArticleLineValidation
 
     /**
      * @param string $CostpriceEach
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setCostpriceEach($CostpriceEach)
     {
@@ -292,7 +292,7 @@ class ArticleLineValidation
 
     /**
      * @param string $DeliveryDate
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setDeliveryDate($DeliveryDate)
     {
@@ -310,7 +310,7 @@ class ArticleLineValidation
 
     /**
      * @param string $Ean
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setEan($Ean)
     {
@@ -328,7 +328,7 @@ class ArticleLineValidation
 
     /**
      * @param ArrayOfstring $ErrorDescriptionsCurrentLine
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setErrorDescriptionsCurrentLine($ErrorDescriptionsCurrentLine)
     {
@@ -346,7 +346,7 @@ class ArticleLineValidation
 
     /**
      * @param boolean $ErrorsInLine
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setErrorsInLine($ErrorsInLine)
     {
@@ -364,7 +364,7 @@ class ArticleLineValidation
 
     /**
      * @param string $InvoiceNo
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setInvoiceNo($InvoiceNo)
     {
@@ -382,7 +382,7 @@ class ArticleLineValidation
 
     /**
      * @param string $ItemgroupDescription
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setItemgroupDescription($ItemgroupDescription)
     {
@@ -400,7 +400,7 @@ class ArticleLineValidation
 
     /**
      * @param string $ItemgroupNo
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setItemgroupNo($ItemgroupNo)
     {
@@ -418,7 +418,7 @@ class ArticleLineValidation
 
     /**
      * @param int $LineCount
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setLineCount($LineCount)
     {
@@ -436,7 +436,7 @@ class ArticleLineValidation
 
     /**
      * @param string $OriginalLine
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setOriginalLine($OriginalLine)
     {
@@ -454,7 +454,7 @@ class ArticleLineValidation
 
     /**
      * @param string $Quantity
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setQuantity($Quantity)
     {
@@ -472,7 +472,7 @@ class ArticleLineValidation
 
     /**
      * @param string $SalespriceEach
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setSalespriceEach($SalespriceEach)
     {
@@ -490,7 +490,7 @@ class ArticleLineValidation
 
     /**
      * @param string $SupplierName
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setSupplierName($SupplierName)
     {
@@ -508,7 +508,7 @@ class ArticleLineValidation
 
     /**
      * @param string $SupplierNo
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setSupplierNo($SupplierNo)
     {
@@ -526,7 +526,7 @@ class ArticleLineValidation
 
     /**
      * @param string $SupplierOrderNo
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setSupplierOrderNo($SupplierOrderNo)
     {
@@ -544,7 +544,7 @@ class ArticleLineValidation
 
     /**
      * @param string $SupplierTelephone
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setSupplierTelephone($SupplierTelephone)
     {
@@ -562,7 +562,7 @@ class ArticleLineValidation
 
     /**
      * @param string $VariantParameter1
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setVariantParameter1($VariantParameter1)
     {
@@ -580,7 +580,7 @@ class ArticleLineValidation
 
     /**
      * @param string $VariantParameter2
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setVariantParameter2($VariantParameter2)
     {
@@ -598,7 +598,7 @@ class ArticleLineValidation
 
     /**
      * @param string $VariantParameter3
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setVariantParameter3($VariantParameter3)
     {
@@ -616,7 +616,7 @@ class ArticleLineValidation
 
     /**
      * @param string $VariantParameter4
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setVariantParameter4($VariantParameter4)
     {
@@ -634,7 +634,7 @@ class ArticleLineValidation
 
     /**
      * @param string $VariantParameter5
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setVariantParameter5($VariantParameter5)
     {
@@ -652,7 +652,7 @@ class ArticleLineValidation
 
     /**
      * @param ArrayOfstring $WarningDescriptionsCurrentLine
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setWarningDescriptionsCurrentLine($WarningDescriptionsCurrentLine)
     {
@@ -670,7 +670,7 @@ class ArticleLineValidation
 
     /**
      * @param boolean $WarningsInLine
-     * @return \DdD\\Stock\ArticleLineValidation
+     * @return \DdD\Stock\ArticleLineValidation
      */
     public function setWarningsInLine($WarningsInLine)
     {

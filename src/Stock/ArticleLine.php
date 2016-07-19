@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArticleLine
 {
@@ -131,7 +131,7 @@ class ArticleLine
 
     /**
      * @param float $CostpriceEach
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setCostpriceEach($CostpriceEach)
     {
@@ -149,7 +149,7 @@ class ArticleLine
 
     /**
      * @param int $Ean
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setEan($Ean)
     {
@@ -167,7 +167,7 @@ class ArticleLine
 
     /**
      * @param int $EdbNumber
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setEdbNumber($EdbNumber)
     {
@@ -185,7 +185,7 @@ class ArticleLine
 
     /**
      * @param int $ItemGroup
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setItemGroup($ItemGroup)
     {
@@ -203,7 +203,7 @@ class ArticleLine
 
     /**
      * @param string $ItemGroupName
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setItemGroupName($ItemGroupName)
     {
@@ -221,7 +221,7 @@ class ArticleLine
 
     /**
      * @param int $KatalogNumber
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setKatalogNumber($KatalogNumber)
     {
@@ -239,7 +239,7 @@ class ArticleLine
 
     /**
      * @param string $Kparam1
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setKparam1($Kparam1)
     {
@@ -257,7 +257,7 @@ class ArticleLine
 
     /**
      * @param string $Kparam2
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setKparam2($Kparam2)
     {
@@ -275,7 +275,7 @@ class ArticleLine
 
     /**
      * @param string $Kparam3
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setKparam3($Kparam3)
     {
@@ -293,7 +293,7 @@ class ArticleLine
 
     /**
      * @param string $Kparam4
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setKparam4($Kparam4)
     {
@@ -311,7 +311,7 @@ class ArticleLine
 
     /**
      * @param string $Kparam5
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setKparam5($Kparam5)
     {
@@ -329,7 +329,7 @@ class ArticleLine
 
     /**
      * @param int $Qty
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setQty($Qty)
     {
@@ -347,7 +347,7 @@ class ArticleLine
 
     /**
      * @param float $SalesPriceEach
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setSalesPriceEach($SalesPriceEach)
     {
@@ -365,7 +365,7 @@ class ArticleLine
 
     /**
      * @param int $Supplier
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setSupplier($Supplier)
     {
@@ -383,7 +383,7 @@ class ArticleLine
 
     /**
      * @param string $SupplierName
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setSupplierName($SupplierName)
     {
@@ -401,7 +401,7 @@ class ArticleLine
 
     /**
      * @param string $Vparam1
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setVparam1($Vparam1)
     {
@@ -419,7 +419,7 @@ class ArticleLine
 
     /**
      * @param string $Vparam2
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setVparam2($Vparam2)
     {
@@ -437,7 +437,7 @@ class ArticleLine
 
     /**
      * @param string $Vparam3
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setVparam3($Vparam3)
     {
@@ -455,7 +455,7 @@ class ArticleLine
 
     /**
      * @param string $Vparam4
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setVparam4($Vparam4)
     {
@@ -473,7 +473,7 @@ class ArticleLine
 
     /**
      * @param string $Vparam5
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setVparam5($Vparam5)
     {
@@ -491,7 +491,7 @@ class ArticleLine
 
     /**
      * @param string $WebshopDescription
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setWebshopDescription($WebshopDescription)
     {
@@ -509,7 +509,7 @@ class ArticleLine
 
     /**
      * @param float $WholeSaleCostpriceEach
-     * @return \DdD\\Stock\ArticleLine
+     * @return \DdD\Stock\ArticleLine
      */
     public function setWholeSaleCostpriceEach($WholeSaleCostpriceEach)
     {

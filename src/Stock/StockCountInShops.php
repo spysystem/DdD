@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class StockCountInShops
 {
@@ -49,7 +49,7 @@ class StockCountInShops
 
     /**
      * @param int $shopKey
-     * @return \DdD\\Stock\StockCountInShops
+     * @return \DdD\Stock\StockCountInShops
      */
     public function setShopKey($shopKey)
     {
@@ -67,7 +67,7 @@ class StockCountInShops
 
     /**
      * @param ArrayOflong $eans
-     * @return \DdD\\Stock\StockCountInShops
+     * @return \DdD\Stock\StockCountInShops
      */
     public function setEans($eans)
     {
@@ -85,7 +85,7 @@ class StockCountInShops
 
     /**
      * @param ArrayOfint $shops
-     * @return \DdD\\Stock\StockCountInShops
+     * @return \DdD\Stock\StockCountInShops
      */
     public function setShops($shops)
     {
@@ -103,7 +103,7 @@ class StockCountInShops
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\StockCountInShops
+     * @return \DdD\Stock\StockCountInShops
      */
     public function setPsk($psk)
     {

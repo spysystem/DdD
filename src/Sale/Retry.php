@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class Retry
 {
@@ -54,7 +54,7 @@ class Retry
 
     /**
      * @param \DateTime $FromDate
-     * @return \DdD\\Sale\Retry
+     * @return \DdD\Sale\Retry
      */
     public function setFromDate(\DateTime $FromDate = null)
     {
@@ -76,7 +76,7 @@ class Retry
 
     /**
      * @param int $FromNoteId
-     * @return \DdD\\Sale\Retry
+     * @return \DdD\Sale\Retry
      */
     public function setFromNoteId($FromNoteId)
     {
@@ -94,7 +94,7 @@ class Retry
 
     /**
      * @param RetryRetryOption $Option
-     * @return \DdD\\Sale\Retry
+     * @return \DdD\Sale\Retry
      */
     public function setOption($Option)
     {
@@ -120,7 +120,7 @@ class Retry
 
     /**
      * @param \DateTime $ToDate
-     * @return \DdD\\Sale\Retry
+     * @return \DdD\Sale\Retry
      */
     public function setToDate(\DateTime $ToDate = null)
     {
@@ -142,7 +142,7 @@ class Retry
 
     /**
      * @param int $ToNoteId
-     * @return \DdD\\Sale\Retry
+     * @return \DdD\Sale\Retry
      */
     public function setToNoteId($ToNoteId)
     {

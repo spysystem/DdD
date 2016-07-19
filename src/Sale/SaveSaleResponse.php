@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaveSaleResponse
 {
@@ -28,7 +28,7 @@ class SaveSaleResponse
 
     /**
      * @param Status $SaveSaleResult
-     * @return \DdD\\Sale\SaveSaleResponse
+     * @return \DdD\Sale\SaveSaleResponse
      */
     public function setSaveSaleResult($SaveSaleResult)
     {

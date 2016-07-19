@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfKeyValueOfintdecimal implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfKeyValueOfintdecimal implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param KeyValueOfintdecimal[] $KeyValueOfintdecimal
-     * @return \DdD\\Sale\ArrayOfKeyValueOfintdecimal
+     * @return \DdD\Sale\ArrayOfKeyValueOfintdecimal
      */
     public function setKeyValueOfintdecimal(array $KeyValueOfintdecimal = null)
     {

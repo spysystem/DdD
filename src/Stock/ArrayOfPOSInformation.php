@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfPOSInformation implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPOSInformation implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param POSInformation[] $POSInformation
-     * @return \DdD\\Stock\ArrayOfPOSInformation
+     * @return \DdD\Stock\ArrayOfPOSInformation
      */
     public function setPOSInformation(array $POSInformation = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfKeyFigures implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfKeyFigures implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param KeyFigures[] $KeyFigures
-     * @return \DdD\\Sale\ArrayOfKeyFigures
+     * @return \DdD\Sale\ArrayOfKeyFigures
      */
     public function setKeyFigures(array $KeyFigures = null)
     {

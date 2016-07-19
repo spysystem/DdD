@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetSalesResponse
 {
@@ -28,7 +28,7 @@ class GetSalesResponse
 
     /**
      * @param SaleSum $GetSalesResult
-     * @return \DdD\\Sale\GetSalesResponse
+     * @return \DdD\Sale\GetSalesResponse
      */
     public function setGetSalesResult($GetSalesResult)
     {

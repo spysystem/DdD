@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetImage
 {
@@ -42,7 +42,7 @@ class GetImage
 
     /**
      * @param string $koncern
-     * @return \DdD\\Stock\GetImage
+     * @return \DdD\Stock\GetImage
      */
     public function setKoncern($koncern)
     {
@@ -60,7 +60,7 @@ class GetImage
 
     /**
      * @param string $name
-     * @return \DdD\\Stock\GetImage
+     * @return \DdD\Stock\GetImage
      */
     public function setName($name)
     {
@@ -78,7 +78,7 @@ class GetImage
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetImage
+     * @return \DdD\Stock\GetImage
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetOpenShipments
 {
@@ -42,7 +42,7 @@ class GetOpenShipments
 
     /**
      * @param int $clientId
-     * @return \DdD\\Stock\GetOpenShipments
+     * @return \DdD\Stock\GetOpenShipments
      */
     public function setClientId($clientId)
     {
@@ -60,7 +60,7 @@ class GetOpenShipments
 
     /**
      * @param ArrayOfShipmentConfirmationRequestModel $requestData
-     * @return \DdD\\Stock\GetOpenShipments
+     * @return \DdD\Stock\GetOpenShipments
      */
     public function setRequestData($requestData)
     {
@@ -78,7 +78,7 @@ class GetOpenShipments
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetOpenShipments
+     * @return \DdD\Stock\GetOpenShipments
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetArticleInformationResponse
 {
@@ -28,7 +28,7 @@ class GetArticleInformationResponse
 
     /**
      * @param string $GetArticleInformationResult
-     * @return \DdD\\Stock\GetArticleInformationResponse
+     * @return \DdD\Stock\GetArticleInformationResponse
      */
     public function setGetArticleInformationResult($GetArticleInformationResult)
     {

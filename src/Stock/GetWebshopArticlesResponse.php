@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesResponse
 {
@@ -28,7 +28,7 @@ class GetWebshopArticlesResponse
 
     /**
      * @param string $GetWebshopArticlesResult
-     * @return \DdD\\Stock\GetWebshopArticlesResponse
+     * @return \DdD\Stock\GetWebshopArticlesResponse
      */
     public function setGetWebshopArticlesResult($GetWebshopArticlesResult)
     {

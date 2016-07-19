@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class WebOrder
 {
@@ -101,7 +101,7 @@ class WebOrder
 
     /**
      * @param int $CustomerId
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setCustomerId($CustomerId)
     {
@@ -119,7 +119,7 @@ class WebOrder
 
     /**
      * @param string $CustomerName
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setCustomerName($CustomerName)
     {
@@ -137,7 +137,7 @@ class WebOrder
 
     /**
      * @param string $DeliveryAddress
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setDeliveryAddress($DeliveryAddress)
     {
@@ -155,7 +155,7 @@ class WebOrder
 
     /**
      * @param int $Direction
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setDirection($Direction)
     {
@@ -173,7 +173,7 @@ class WebOrder
 
     /**
      * @param float $DiscountAmount
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setDiscountAmount($DiscountAmount)
     {
@@ -191,7 +191,7 @@ class WebOrder
 
     /**
      * @param int $Ean
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setEan($Ean)
     {
@@ -209,7 +209,7 @@ class WebOrder
 
     /**
      * @param boolean $IsPaid
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setIsPaid($IsPaid)
     {
@@ -235,7 +235,7 @@ class WebOrder
 
     /**
      * @param \DateTime $LastPickupDate
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setLastPickupDate(\DateTime $LastPickupDate = null)
     {
@@ -265,7 +265,7 @@ class WebOrder
 
     /**
      * @param \DateTime $OrderDate
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setOrderDate(\DateTime $OrderDate = null)
     {
@@ -287,7 +287,7 @@ class WebOrder
 
     /**
      * @param string $OrderReferenceId
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setOrderReferenceId($OrderReferenceId)
     {
@@ -305,7 +305,7 @@ class WebOrder
 
     /**
      * @param int $Qty
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setQty($Qty)
     {
@@ -323,7 +323,7 @@ class WebOrder
 
     /**
      * @param int $QtyDelivered
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setQtyDelivered($QtyDelivered)
     {
@@ -341,7 +341,7 @@ class WebOrder
 
     /**
      * @param int $Reserved
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setReserved($Reserved)
     {
@@ -359,7 +359,7 @@ class WebOrder
 
     /**
      * @param float $Salesprice
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setSalesprice($Salesprice)
     {
@@ -377,7 +377,7 @@ class WebOrder
 
     /**
      * @param int $ShopId
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setShopId($ShopId)
     {
@@ -395,7 +395,7 @@ class WebOrder
 
     /**
      * @param int $Status
-     * @return \DdD\\Sale\WebOrder
+     * @return \DdD\Sale\WebOrder
      */
     public function setStatus($Status)
     {

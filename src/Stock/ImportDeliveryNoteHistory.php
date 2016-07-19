@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ImportDeliveryNoteHistory
 {
@@ -49,7 +49,7 @@ class ImportDeliveryNoteHistory
 
     /**
      * @param ArrayOfDeliveryNote $deliveryNotes
-     * @return \DdD\\Stock\ImportDeliveryNoteHistory
+     * @return \DdD\Stock\ImportDeliveryNoteHistory
      */
     public function setDeliveryNotes($deliveryNotes)
     {
@@ -67,7 +67,7 @@ class ImportDeliveryNoteHistory
 
     /**
      * @param int $client
-     * @return \DdD\\Stock\ImportDeliveryNoteHistory
+     * @return \DdD\Stock\ImportDeliveryNoteHistory
      */
     public function setClient($client)
     {
@@ -85,7 +85,7 @@ class ImportDeliveryNoteHistory
 
     /**
      * @param boolean $autoUpdateStock
-     * @return \DdD\\Stock\ImportDeliveryNoteHistory
+     * @return \DdD\Stock\ImportDeliveryNoteHistory
      */
     public function setAutoUpdateStock($autoUpdateStock)
     {
@@ -103,7 +103,7 @@ class ImportDeliveryNoteHistory
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\ImportDeliveryNoteHistory
+     * @return \DdD\Stock\ImportDeliveryNoteHistory
      */
     public function setPsk($psk)
     {

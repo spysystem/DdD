@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class CertificateResponse
 {
@@ -61,7 +61,7 @@ class CertificateResponse
 
     /**
      * @param float $Amount
-     * @return \DdD\\Sale\CertificateResponse
+     * @return \DdD\Sale\CertificateResponse
      */
     public function setAmount($Amount)
     {
@@ -87,7 +87,7 @@ class CertificateResponse
 
     /**
      * @param \DateTime $IssueDate
-     * @return \DdD\\Sale\CertificateResponse
+     * @return \DdD\Sale\CertificateResponse
      */
     public function setIssueDate(\DateTime $IssueDate = null)
     {
@@ -109,7 +109,7 @@ class CertificateResponse
 
     /**
      * @param int $IssueShop
-     * @return \DdD\\Sale\CertificateResponse
+     * @return \DdD\Sale\CertificateResponse
      */
     public function setIssueShop($IssueShop)
     {
@@ -127,7 +127,7 @@ class CertificateResponse
 
     /**
      * @param string $Number
-     * @return \DdD\\Sale\CertificateResponse
+     * @return \DdD\Sale\CertificateResponse
      */
     public function setNumber($Number)
     {
@@ -145,7 +145,7 @@ class CertificateResponse
 
     /**
      * @param CertificateStatus $State
-     * @return \DdD\\Sale\CertificateResponse
+     * @return \DdD\Sale\CertificateResponse
      */
     public function setState($State)
     {
@@ -163,7 +163,7 @@ class CertificateResponse
 
     /**
      * @param CertificateType $Type
-     * @return \DdD\\Sale\CertificateResponse
+     * @return \DdD\Sale\CertificateResponse
      */
     public function setType($Type)
     {
@@ -181,7 +181,7 @@ class CertificateResponse
 
     /**
      * @param int $UsedInShop
-     * @return \DdD\\Sale\CertificateResponse
+     * @return \DdD\Sale\CertificateResponse
      */
     public function setUsedInShop($UsedInShop)
     {
@@ -199,7 +199,7 @@ class CertificateResponse
 
     /**
      * @param boolean $Valid
-     * @return \DdD\\Sale\CertificateResponse
+     * @return \DdD\Sale\CertificateResponse
      */
     public function setValid($Valid)
     {

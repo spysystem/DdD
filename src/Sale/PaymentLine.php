@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class PaymentLine
 {
@@ -61,7 +61,7 @@ class PaymentLine
 
     /**
      * @param int $CardNumber
-     * @return \DdD\\Sale\PaymentLine
+     * @return \DdD\Sale\PaymentLine
      */
     public function setCardNumber($CardNumber)
     {
@@ -79,7 +79,7 @@ class PaymentLine
 
     /**
      * @param int $CurrencyCode
-     * @return \DdD\\Sale\PaymentLine
+     * @return \DdD\Sale\PaymentLine
      */
     public function setCurrencyCode($CurrencyCode)
     {
@@ -97,7 +97,7 @@ class PaymentLine
 
     /**
      * @param string $CustomerNumber
-     * @return \DdD\\Sale\PaymentLine
+     * @return \DdD\Sale\PaymentLine
      */
     public function setCustomerNumber($CustomerNumber)
     {
@@ -115,7 +115,7 @@ class PaymentLine
 
     /**
      * @param string $GiftCertificate
-     * @return \DdD\\Sale\PaymentLine
+     * @return \DdD\Sale\PaymentLine
      */
     public function setGiftCertificate($GiftCertificate)
     {
@@ -133,7 +133,7 @@ class PaymentLine
 
     /**
      * @param float $LineAmount
-     * @return \DdD\\Sale\PaymentLine
+     * @return \DdD\Sale\PaymentLine
      */
     public function setLineAmount($LineAmount)
     {
@@ -151,7 +151,7 @@ class PaymentLine
 
     /**
      * @param float $Qty
-     * @return \DdD\\Sale\PaymentLine
+     * @return \DdD\Sale\PaymentLine
      */
     public function setQty($Qty)
     {
@@ -177,7 +177,7 @@ class PaymentLine
 
     /**
      * @param \DateTime $Time
-     * @return \DdD\\Sale\PaymentLine
+     * @return \DdD\Sale\PaymentLine
      */
     public function setTime(\DateTime $Time = null)
     {
@@ -199,7 +199,7 @@ class PaymentLine
 
     /**
      * @param PaymentLineType $Type
-     * @return \DdD\\Sale\PaymentLine
+     * @return \DdD\Sale\PaymentLine
      */
     public function setType($Type)
     {

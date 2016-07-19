@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaleSum
 {
@@ -46,7 +46,7 @@ class SaleSum
 
     /**
      * @param int $ID
-     * @return \DdD\\Sale\SaleSum
+     * @return \DdD\Sale\SaleSum
      */
     public function setID($ID)
     {
@@ -72,7 +72,7 @@ class SaleSum
 
     /**
      * @param \DateTime $LastSaleChanged
-     * @return \DdD\\Sale\SaleSum
+     * @return \DdD\Sale\SaleSum
      */
     public function setLastSaleChanged(\DateTime $LastSaleChanged = null)
     {
@@ -94,7 +94,7 @@ class SaleSum
 
     /**
      * @param ArrayOfKeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1 $Sales
-     * @return \DdD\\Sale\SaleSum
+     * @return \DdD\Sale\SaleSum
      */
     public function setSales($Sales)
     {
@@ -112,7 +112,7 @@ class SaleSum
 
     /**
      * @param boolean $SumChanged
-     * @return \DdD\\Sale\SaleSum
+     * @return \DdD\Sale\SaleSum
      */
     public function setSumChanged($SumChanged)
     {
@@ -130,7 +130,7 @@ class SaleSum
 
     /**
      * @param float $SumTurnover
-     * @return \DdD\\Sale\SaleSum
+     * @return \DdD\Sale\SaleSum
      */
     public function setSumTurnover($SumTurnover)
     {

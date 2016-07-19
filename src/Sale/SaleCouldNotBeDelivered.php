@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaleCouldNotBeDelivered
 {
@@ -63,7 +63,7 @@ class SaleCouldNotBeDelivered
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\SaleCouldNotBeDelivered
+     * @return \DdD\Sale\SaleCouldNotBeDelivered
      */
     public function setClient($client)
     {
@@ -81,7 +81,7 @@ class SaleCouldNotBeDelivered
 
     /**
      * @param int $terminal
-     * @return \DdD\\Sale\SaleCouldNotBeDelivered
+     * @return \DdD\Sale\SaleCouldNotBeDelivered
      */
     public function setTerminal($terminal)
     {
@@ -99,7 +99,7 @@ class SaleCouldNotBeDelivered
 
     /**
      * @param int $noteId
-     * @return \DdD\\Sale\SaleCouldNotBeDelivered
+     * @return \DdD\Sale\SaleCouldNotBeDelivered
      */
     public function setNoteId($noteId)
     {
@@ -125,7 +125,7 @@ class SaleCouldNotBeDelivered
 
     /**
      * @param \DateTime $saleDate
-     * @return \DdD\\Sale\SaleCouldNotBeDelivered
+     * @return \DdD\Sale\SaleCouldNotBeDelivered
      */
     public function setSaleDate(\DateTime $saleDate)
     {
@@ -143,7 +143,7 @@ class SaleCouldNotBeDelivered
 
     /**
      * @param string $errorMessage
-     * @return \DdD\\Sale\SaleCouldNotBeDelivered
+     * @return \DdD\Sale\SaleCouldNotBeDelivered
      */
     public function setErrorMessage($errorMessage)
     {
@@ -161,7 +161,7 @@ class SaleCouldNotBeDelivered
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\SaleCouldNotBeDelivered
+     * @return \DdD\Sale\SaleCouldNotBeDelivered
      */
     public function setPsk($psk)
     {

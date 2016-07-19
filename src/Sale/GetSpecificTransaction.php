@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetSpecificTransaction
 {
@@ -49,7 +49,7 @@ class GetSpecificTransaction
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetSpecificTransaction
+     * @return \DdD\Sale\GetSpecificTransaction
      */
     public function setClient($client)
     {
@@ -67,7 +67,7 @@ class GetSpecificTransaction
 
     /**
      * @param int $terminalNumber
-     * @return \DdD\\Sale\GetSpecificTransaction
+     * @return \DdD\Sale\GetSpecificTransaction
      */
     public function setTerminalNumber($terminalNumber)
     {
@@ -85,7 +85,7 @@ class GetSpecificTransaction
 
     /**
      * @param int $noteid
-     * @return \DdD\\Sale\GetSpecificTransaction
+     * @return \DdD\Sale\GetSpecificTransaction
      */
     public function setNoteid($noteid)
     {
@@ -103,7 +103,7 @@ class GetSpecificTransaction
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetSpecificTransaction
+     * @return \DdD\Sale\GetSpecificTransaction
      */
     public function setPsk($psk)
     {

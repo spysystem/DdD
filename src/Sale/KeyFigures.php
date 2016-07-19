@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class KeyFigures
 {
@@ -66,7 +66,7 @@ class KeyFigures
 
     /**
      * @param float $CashDifference
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setCashDifference($CashDifference)
     {
@@ -84,7 +84,7 @@ class KeyFigures
 
     /**
      * @param float $Discounts
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setDiscounts($Discounts)
     {
@@ -102,7 +102,7 @@ class KeyFigures
 
     /**
      * @param float $GrossProfit
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setGrossProfit($GrossProfit)
     {
@@ -120,7 +120,7 @@ class KeyFigures
 
     /**
      * @param float $GrossTurnover
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setGrossTurnover($GrossTurnover)
     {
@@ -138,7 +138,7 @@ class KeyFigures
 
     /**
      * @param int $NumberOfCustomers
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setNumberOfCustomers($NumberOfCustomers)
     {
@@ -156,7 +156,7 @@ class KeyFigures
 
     /**
      * @param int $NumberOfGoodsSold
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setNumberOfGoodsSold($NumberOfGoodsSold)
     {
@@ -174,7 +174,7 @@ class KeyFigures
 
     /**
      * @param int $NumberOfPeople
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setNumberOfPeople($NumberOfPeople)
     {
@@ -192,7 +192,7 @@ class KeyFigures
 
     /**
      * @param float $Returned
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setReturned($Returned)
     {
@@ -210,7 +210,7 @@ class KeyFigures
 
     /**
      * @param int $TerminalNumber
-     * @return \DdD\\Sale\KeyFigures
+     * @return \DdD\Sale\KeyFigures
      */
     public function setTerminalNumber($TerminalNumber)
     {

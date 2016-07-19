@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ResponseMessage
 {
@@ -41,7 +41,7 @@ class ResponseMessage
 
     /**
      * @param string $Message
-     * @return \DdD\\Sale\ResponseMessage
+     * @return \DdD\Sale\ResponseMessage
      */
     public function setMessage($Message)
     {
@@ -59,7 +59,7 @@ class ResponseMessage
 
     /**
      * @param int $State
-     * @return \DdD\\Sale\ResponseMessage
+     * @return \DdD\Sale\ResponseMessage
      */
     public function setState($State)
     {
@@ -85,7 +85,7 @@ class ResponseMessage
 
     /**
      * @param \DateTime $TimeOfAction
-     * @return \DdD\\Sale\ResponseMessage
+     * @return \DdD\Sale\ResponseMessage
      */
     public function setTimeOfAction(\DateTime $TimeOfAction = null)
     {
@@ -107,7 +107,7 @@ class ResponseMessage
 
     /**
      * @param anyType $UserValue
-     * @return \DdD\\Sale\ResponseMessage
+     * @return \DdD\Sale\ResponseMessage
      */
     public function setUserValue($UserValue)
     {

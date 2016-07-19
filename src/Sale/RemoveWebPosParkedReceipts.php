@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class RemoveWebPosParkedReceipts
 {
@@ -42,7 +42,7 @@ class RemoveWebPosParkedReceipts
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\RemoveWebPosParkedReceipts
+     * @return \DdD\Sale\RemoveWebPosParkedReceipts
      */
     public function setClient($client)
     {
@@ -60,7 +60,7 @@ class RemoveWebPosParkedReceipts
 
     /**
      * @param string $objectId
-     * @return \DdD\\Sale\RemoveWebPosParkedReceipts
+     * @return \DdD\Sale\RemoveWebPosParkedReceipts
      */
     public function setObjectId($objectId)
     {
@@ -78,7 +78,7 @@ class RemoveWebPosParkedReceipts
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\RemoveWebPosParkedReceipts
+     * @return \DdD\Sale\RemoveWebPosParkedReceipts
      */
     public function setPsk($psk)
     {

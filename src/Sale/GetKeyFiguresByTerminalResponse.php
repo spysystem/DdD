@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetKeyFiguresByTerminalResponse
 {
@@ -28,7 +28,7 @@ class GetKeyFiguresByTerminalResponse
 
     /**
      * @param ArrayOfKeyValueOfdateTimeArrayOfKeyFigureszJ_S5Vm7C $GetKeyFiguresByTerminalResult
-     * @return \DdD\\Sale\GetKeyFiguresByTerminalResponse
+     * @return \DdD\Sale\GetKeyFiguresByTerminalResponse
      */
     public function setGetKeyFiguresByTerminalResult($GetKeyFiguresByTerminalResult)
     {

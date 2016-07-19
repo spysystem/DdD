@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetCertificatesResponse
 {
@@ -28,7 +28,7 @@ class GetCertificatesResponse
 
     /**
      * @param ArrayOfCertificateResponse $GetCertificatesResult
-     * @return \DdD\\Sale\GetCertificatesResponse
+     * @return \DdD\Sale\GetCertificatesResponse
      */
     public function setGetCertificatesResult($GetCertificatesResult)
     {

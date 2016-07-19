@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfPaymentLine implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPaymentLine implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param PaymentLine[] $PaymentLine
-     * @return \DdD\\Sale\ArrayOfPaymentLine
+     * @return \DdD\Sale\ArrayOfPaymentLine
      */
     public function setPaymentLine(array $PaymentLine = null)
     {

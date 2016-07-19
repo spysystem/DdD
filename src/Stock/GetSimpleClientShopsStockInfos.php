@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetSimpleClientShopsStockInfos
 {
@@ -42,7 +42,7 @@ class GetSimpleClientShopsStockInfos
 
     /**
      * @param int $client
-     * @return \DdD\\Stock\GetSimpleClientShopsStockInfos
+     * @return \DdD\Stock\GetSimpleClientShopsStockInfos
      */
     public function setClient($client)
     {
@@ -68,7 +68,7 @@ class GetSimpleClientShopsStockInfos
 
     /**
      * @param \DateTime $from
-     * @return \DdD\\Stock\GetSimpleClientShopsStockInfos
+     * @return \DdD\Stock\GetSimpleClientShopsStockInfos
      */
     public function setFrom(\DateTime $from)
     {
@@ -86,7 +86,7 @@ class GetSimpleClientShopsStockInfos
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetSimpleClientShopsStockInfos
+     * @return \DdD\Stock\GetSimpleClientShopsStockInfos
      */
     public function setPsk($psk)
     {

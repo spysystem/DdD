@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
 {
@@ -35,7 +35,7 @@ class KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
 
     /**
      * @param int $Key
-     * @return \DdD\\Stock\KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
+     * @return \DdD\Stock\KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
      */
     public function setKey($Key)
     {
@@ -53,7 +53,7 @@ class KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
 
     /**
      * @param ArrayOfKeyValueOflongint $Value
-     * @return \DdD\\Stock\KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
+     * @return \DdD\Stock\KeyValueOfintArrayOfKeyValueOflongintty7Ep6D1
      */
     public function setValue($Value)
     {

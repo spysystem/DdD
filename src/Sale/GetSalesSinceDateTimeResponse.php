@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetSalesSinceDateTimeResponse
 {
@@ -28,7 +28,7 @@ class GetSalesSinceDateTimeResponse
 
     /**
      * @param SaleSum $GetSalesSinceDateTimeResult
-     * @return \DdD\\Sale\GetSalesSinceDateTimeResponse
+     * @return \DdD\Sale\GetSalesSinceDateTimeResponse
      */
     public function setGetSalesSinceDateTimeResult($GetSalesSinceDateTimeResult)
     {

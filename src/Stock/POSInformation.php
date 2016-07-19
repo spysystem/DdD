@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class POSInformation
 {
@@ -41,7 +41,7 @@ class POSInformation
 
     /**
      * @param int $Identifier
-     * @return \DdD\\Stock\POSInformation
+     * @return \DdD\Stock\POSInformation
      */
     public function setIdentifier($Identifier)
     {
@@ -59,7 +59,7 @@ class POSInformation
 
     /**
      * @param string $Name
-     * @return \DdD\\Stock\POSInformation
+     * @return \DdD\Stock\POSInformation
      */
     public function setName($Name)
     {
@@ -77,7 +77,7 @@ class POSInformation
 
     /**
      * @param int $Number
-     * @return \DdD\\Stock\POSInformation
+     * @return \DdD\Stock\POSInformation
      */
     public function setNumber($Number)
     {
@@ -95,7 +95,7 @@ class POSInformation
 
     /**
      * @param POSInformationInformationType $TypeOfInformation
-     * @return \DdD\\Stock\POSInformation
+     * @return \DdD\Stock\POSInformation
      */
     public function setTypeOfInformation($TypeOfInformation)
     {

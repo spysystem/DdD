@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ConfirmationItem
 {
@@ -56,7 +56,7 @@ class ConfirmationItem
 
     /**
      * @param ConfirmationItemAction $Action
-     * @return \DdD\\Stock\ConfirmationItem
+     * @return \DdD\Stock\ConfirmationItem
      */
     public function setAction($Action)
     {
@@ -74,7 +74,7 @@ class ConfirmationItem
 
     /**
      * @param string $Cleark
-     * @return \DdD\\Stock\ConfirmationItem
+     * @return \DdD\Stock\ConfirmationItem
      */
     public function setCleark($Cleark)
     {
@@ -92,7 +92,7 @@ class ConfirmationItem
 
     /**
      * @param string $EAN
-     * @return \DdD\\Stock\ConfirmationItem
+     * @return \DdD\Stock\ConfirmationItem
      */
     public function setEAN($EAN)
     {
@@ -110,7 +110,7 @@ class ConfirmationItem
 
     /**
      * @param string $EDBNR
-     * @return \DdD\\Stock\ConfirmationItem
+     * @return \DdD\Stock\ConfirmationItem
      */
     public function setEDBNR($EDBNR)
     {
@@ -128,7 +128,7 @@ class ConfirmationItem
 
     /**
      * @param int $QuantityConfirmed
-     * @return \DdD\\Stock\ConfirmationItem
+     * @return \DdD\Stock\ConfirmationItem
      */
     public function setQuantityConfirmed($QuantityConfirmed)
     {
@@ -154,7 +154,7 @@ class ConfirmationItem
 
     /**
      * @param \DateTime $ReveivingDate
-     * @return \DdD\\Stock\ConfirmationItem
+     * @return \DdD\Stock\ConfirmationItem
      */
     public function setReveivingDate(\DateTime $ReveivingDate = null)
     {
@@ -176,7 +176,7 @@ class ConfirmationItem
 
     /**
      * @param ConfirmationStatus $StatusType
-     * @return \DdD\\Stock\ConfirmationItem
+     * @return \DdD\Stock\ConfirmationItem
      */
     public function setStatusType($StatusType)
     {

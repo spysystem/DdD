@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfArticleGrouping implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfArticleGrouping implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ArticleGrouping[] $ArticleGrouping
-     * @return \DdD\\Stock\ArrayOfArticleGrouping
+     * @return \DdD\Stock\ArrayOfArticleGrouping
      */
     public function setArticleGrouping(array $ArticleGrouping = null)
     {

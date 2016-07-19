@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class TransactionRow
 {
@@ -246,7 +246,7 @@ class TransactionRow
 
     /**
      * @param string $CatalogueParameter1
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setCatalogueParameter1($CatalogueParameter1)
     {
@@ -264,7 +264,7 @@ class TransactionRow
 
     /**
      * @param string $CatalogueParameter2
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setCatalogueParameter2($CatalogueParameter2)
     {
@@ -282,7 +282,7 @@ class TransactionRow
 
     /**
      * @param string $CatalogueParameter3
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setCatalogueParameter3($CatalogueParameter3)
     {
@@ -300,7 +300,7 @@ class TransactionRow
 
     /**
      * @param string $CatalogueParameter4
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setCatalogueParameter4($CatalogueParameter4)
     {
@@ -318,7 +318,7 @@ class TransactionRow
 
     /**
      * @param string $CatalogueParameter5
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setCatalogueParameter5($CatalogueParameter5)
     {
@@ -336,7 +336,7 @@ class TransactionRow
 
     /**
      * @param int $ClerkOrUser
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setClerkOrUser($ClerkOrUser)
     {
@@ -354,7 +354,7 @@ class TransactionRow
 
     /**
      * @param int $ClientID
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setClientID($ClientID)
     {
@@ -372,7 +372,7 @@ class TransactionRow
 
     /**
      * @param float $CostPrice
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setCostPrice($CostPrice)
     {
@@ -390,7 +390,7 @@ class TransactionRow
 
     /**
      * @param string $CurrencyCode
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setCurrencyCode($CurrencyCode)
     {
@@ -408,7 +408,7 @@ class TransactionRow
 
     /**
      * @param int $CustomersClubNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setCustomersClubNo($CustomersClubNo)
     {
@@ -426,7 +426,7 @@ class TransactionRow
 
     /**
      * @param int $DebtorNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setDebtorNo($DebtorNo)
     {
@@ -444,7 +444,7 @@ class TransactionRow
 
     /**
      * @param float $Discount
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setDiscount($Discount)
     {
@@ -462,7 +462,7 @@ class TransactionRow
 
     /**
      * @param int $DiscountCode
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setDiscountCode($DiscountCode)
     {
@@ -480,7 +480,7 @@ class TransactionRow
 
     /**
      * @param int $Ean
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setEan($Ean)
     {
@@ -498,7 +498,7 @@ class TransactionRow
 
     /**
      * @param float $ExchangeRateToEuro
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setExchangeRateToEuro($ExchangeRateToEuro)
     {
@@ -516,7 +516,7 @@ class TransactionRow
 
     /**
      * @param float $ExchangeRateToOwnCurrency
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setExchangeRateToOwnCurrency($ExchangeRateToOwnCurrency)
     {
@@ -534,7 +534,7 @@ class TransactionRow
 
     /**
      * @param int $GiftVoucherAlternativeNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setGiftVoucherAlternativeNo($GiftVoucherAlternativeNo)
     {
@@ -552,7 +552,7 @@ class TransactionRow
 
     /**
      * @param string $GiftVoucherAutoNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setGiftVoucherAutoNo($GiftVoucherAutoNo)
     {
@@ -570,7 +570,7 @@ class TransactionRow
 
     /**
      * @param string $InvoiceNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setInvoiceNo($InvoiceNo)
     {
@@ -588,7 +588,7 @@ class TransactionRow
 
     /**
      * @param string $ItemGroupDescription
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setItemGroupDescription($ItemGroupDescription)
     {
@@ -606,7 +606,7 @@ class TransactionRow
 
     /**
      * @param int $ItemGroupNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setItemGroupNo($ItemGroupNo)
     {
@@ -624,7 +624,7 @@ class TransactionRow
 
     /**
      * @param int $MachineOrCashRegister
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setMachineOrCashRegister($MachineOrCashRegister)
     {
@@ -642,7 +642,7 @@ class TransactionRow
 
     /**
      * @param int $Quantity
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setQuantity($Quantity)
     {
@@ -660,7 +660,7 @@ class TransactionRow
 
     /**
      * @param int $ReceiptNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setReceiptNo($ReceiptNo)
     {
@@ -678,7 +678,7 @@ class TransactionRow
 
     /**
      * @param int $ReceivingClientNoItemTransfer
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setReceivingClientNoItemTransfer($ReceivingClientNoItemTransfer)
     {
@@ -696,7 +696,7 @@ class TransactionRow
 
     /**
      * @param int $ReturnCode
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setReturnCode($ReturnCode)
     {
@@ -714,7 +714,7 @@ class TransactionRow
 
     /**
      * @param TransactionRowType $RowType
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setRowType($RowType)
     {
@@ -732,7 +732,7 @@ class TransactionRow
 
     /**
      * @param int $RowTypeAsInt
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setRowTypeAsInt($RowTypeAsInt)
     {
@@ -750,7 +750,7 @@ class TransactionRow
 
     /**
      * @param float $SalesPrice
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setSalesPrice($SalesPrice)
     {
@@ -768,7 +768,7 @@ class TransactionRow
 
     /**
      * @param string $SupplierAccountNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setSupplierAccountNo($SupplierAccountNo)
     {
@@ -786,7 +786,7 @@ class TransactionRow
 
     /**
      * @param string $SupplierDescription
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setSupplierDescription($SupplierDescription)
     {
@@ -804,7 +804,7 @@ class TransactionRow
 
     /**
      * @param int $SupplierNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setSupplierNo($SupplierNo)
     {
@@ -822,7 +822,7 @@ class TransactionRow
 
     /**
      * @param string $SupplierOrderNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setSupplierOrderNo($SupplierOrderNo)
     {
@@ -840,7 +840,7 @@ class TransactionRow
 
     /**
      * @param duration $Time
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setTime($Time)
     {
@@ -858,7 +858,7 @@ class TransactionRow
 
     /**
      * @param int $TransactionNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setTransactionNo($TransactionNo)
     {
@@ -876,7 +876,7 @@ class TransactionRow
 
     /**
      * @param int $TransactionType
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setTransactionType($TransactionType)
     {
@@ -894,7 +894,7 @@ class TransactionRow
 
     /**
      * @param int $UniqueItemNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setUniqueItemNo($UniqueItemNo)
     {
@@ -912,7 +912,7 @@ class TransactionRow
 
     /**
      * @param string $VariantParameter1
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setVariantParameter1($VariantParameter1)
     {
@@ -930,7 +930,7 @@ class TransactionRow
 
     /**
      * @param string $VariantParameter2
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setVariantParameter2($VariantParameter2)
     {
@@ -948,7 +948,7 @@ class TransactionRow
 
     /**
      * @param string $VariantParameter3
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setVariantParameter3($VariantParameter3)
     {
@@ -966,7 +966,7 @@ class TransactionRow
 
     /**
      * @param string $VariantParameter4
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setVariantParameter4($VariantParameter4)
     {
@@ -984,7 +984,7 @@ class TransactionRow
 
     /**
      * @param string $VariantParameter5
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setVariantParameter5($VariantParameter5)
     {
@@ -1002,7 +1002,7 @@ class TransactionRow
 
     /**
      * @param float $Vat
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setVat($Vat)
     {
@@ -1020,7 +1020,7 @@ class TransactionRow
 
     /**
      * @param int $VirtualItemNo
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setVirtualItemNo($VirtualItemNo)
     {
@@ -1038,7 +1038,7 @@ class TransactionRow
 
     /**
      * @param float $WholeSalePrice
-     * @return \DdD\\Sale\TransactionRow
+     * @return \DdD\Sale\TransactionRow
      */
     public function setWholeSalePrice($WholeSalePrice)
     {

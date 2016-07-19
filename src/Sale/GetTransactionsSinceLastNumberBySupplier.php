@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetTransactionsSinceLastNumberBySupplier
 {
@@ -70,7 +70,7 @@ class GetTransactionsSinceLastNumberBySupplier
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumberBySupplier
+     * @return \DdD\Sale\GetTransactionsSinceLastNumberBySupplier
      */
     public function setClient($client)
     {
@@ -96,7 +96,7 @@ class GetTransactionsSinceLastNumberBySupplier
 
     /**
      * @param \DateTime $datefrom
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumberBySupplier
+     * @return \DdD\Sale\GetTransactionsSinceLastNumberBySupplier
      */
     public function setDatefrom(\DateTime $datefrom)
     {
@@ -122,7 +122,7 @@ class GetTransactionsSinceLastNumberBySupplier
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumberBySupplier
+     * @return \DdD\Sale\GetTransactionsSinceLastNumberBySupplier
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -140,7 +140,7 @@ class GetTransactionsSinceLastNumberBySupplier
 
     /**
      * @param OrderableRowType $typeOfTransaction
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumberBySupplier
+     * @return \DdD\Sale\GetTransactionsSinceLastNumberBySupplier
      */
     public function setTypeOfTransaction($typeOfTransaction)
     {
@@ -158,7 +158,7 @@ class GetTransactionsSinceLastNumberBySupplier
 
     /**
      * @param int $lastTransactionNumber
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumberBySupplier
+     * @return \DdD\Sale\GetTransactionsSinceLastNumberBySupplier
      */
     public function setLastTransactionNumber($lastTransactionNumber)
     {
@@ -176,7 +176,7 @@ class GetTransactionsSinceLastNumberBySupplier
 
     /**
      * @param ArrayOfstring $nameOfSuppliers
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumberBySupplier
+     * @return \DdD\Sale\GetTransactionsSinceLastNumberBySupplier
      */
     public function setNameOfSuppliers($nameOfSuppliers)
     {
@@ -194,7 +194,7 @@ class GetTransactionsSinceLastNumberBySupplier
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumberBySupplier
+     * @return \DdD\Sale\GetTransactionsSinceLastNumberBySupplier
      */
     public function setPsk($psk)
     {

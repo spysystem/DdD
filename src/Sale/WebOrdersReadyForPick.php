@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class WebOrdersReadyForPick
 {
@@ -35,7 +35,7 @@ class WebOrdersReadyForPick
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\WebOrdersReadyForPick
+     * @return \DdD\Sale\WebOrdersReadyForPick
      */
     public function setClient($client)
     {
@@ -53,7 +53,7 @@ class WebOrdersReadyForPick
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\WebOrdersReadyForPick
+     * @return \DdD\Sale\WebOrdersReadyForPick
      */
     public function setPsk($psk)
     {

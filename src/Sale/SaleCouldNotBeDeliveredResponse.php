@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaleCouldNotBeDeliveredResponse
 {
@@ -28,7 +28,7 @@ class SaleCouldNotBeDeliveredResponse
 
     /**
      * @param Status $SaleCouldNotBeDeliveredResult
-     * @return \DdD\\Sale\SaleCouldNotBeDeliveredResponse
+     * @return \DdD\Sale\SaleCouldNotBeDeliveredResponse
      */
     public function setSaleCouldNotBeDeliveredResult($SaleCouldNotBeDeliveredResult)
     {

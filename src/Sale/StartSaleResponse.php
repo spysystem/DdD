@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class StartSaleResponse
 {
@@ -28,7 +28,7 @@ class StartSaleResponse
 
     /**
      * @param Sale $StartSaleResult
-     * @return \DdD\\Sale\StartSaleResponse
+     * @return \DdD\Sale\StartSaleResponse
      */
     public function setStartSaleResult($StartSaleResult)
     {

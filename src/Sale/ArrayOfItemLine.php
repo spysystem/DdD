@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfItemLine implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfItemLine implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ItemLine[] $ItemLine
-     * @return \DdD\\Sale\ArrayOfItemLine
+     * @return \DdD\Sale\ArrayOfItemLine
      */
     public function setItemLine(array $ItemLine = null)
     {

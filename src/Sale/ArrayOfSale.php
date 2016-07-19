@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfSale implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfSale implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param Sale[] $Sale
-     * @return \DdD\\Sale\ArrayOfSale
+     * @return \DdD\Sale\ArrayOfSale
      */
     public function setSale(array $Sale = null)
     {

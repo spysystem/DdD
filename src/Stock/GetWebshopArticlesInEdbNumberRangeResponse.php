@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesInEdbNumberRangeResponse
 {
@@ -28,7 +28,7 @@ class GetWebshopArticlesInEdbNumberRangeResponse
 
     /**
      * @param string $GetWebshopArticlesInEdbNumberRangeResult
-     * @return \DdD\\Stock\GetWebshopArticlesInEdbNumberRangeResponse
+     * @return \DdD\Stock\GetWebshopArticlesInEdbNumberRangeResponse
      */
     public function setGetWebshopArticlesInEdbNumberRangeResult($GetWebshopArticlesInEdbNumberRangeResult)
     {

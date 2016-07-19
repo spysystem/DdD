@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetTransactionsSinceLastNumberResponse
 {
@@ -28,7 +28,7 @@ class GetTransactionsSinceLastNumberResponse
 
     /**
      * @param ArrayOfKeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C $GetTransactionsSinceLastNumberResult
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumberResponse
+     * @return \DdD\Sale\GetTransactionsSinceLastNumberResponse
      */
     public function setGetTransactionsSinceLastNumberResult($GetTransactionsSinceLastNumberResult)
     {

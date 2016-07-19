@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class Confirmation
 {
@@ -56,7 +56,7 @@ class Confirmation
 
     /**
      * @param ArrayOfConfirmationItem $ConfirmationItems
-     * @return \DdD\\Stock\Confirmation
+     * @return \DdD\Stock\Confirmation
      */
     public function setConfirmationItems($ConfirmationItems)
     {
@@ -82,7 +82,7 @@ class Confirmation
 
     /**
      * @param \DateTime $GoodsReceptionEnd
-     * @return \DdD\\Stock\Confirmation
+     * @return \DdD\Stock\Confirmation
      */
     public function setGoodsReceptionEnd(\DateTime $GoodsReceptionEnd = null)
     {
@@ -112,7 +112,7 @@ class Confirmation
 
     /**
      * @param \DateTime $GoodsReceptionStart
-     * @return \DdD\\Stock\Confirmation
+     * @return \DdD\Stock\Confirmation
      */
     public function setGoodsReceptionStart(\DateTime $GoodsReceptionStart = null)
     {
@@ -134,7 +134,7 @@ class Confirmation
 
     /**
      * @param string $InvoiceNo
-     * @return \DdD\\Stock\Confirmation
+     * @return \DdD\Stock\Confirmation
      */
     public function setInvoiceNo($InvoiceNo)
     {
@@ -152,7 +152,7 @@ class Confirmation
 
     /**
      * @param string $StatusMessage
-     * @return \DdD\\Stock\Confirmation
+     * @return \DdD\Stock\Confirmation
      */
     public function setStatusMessage($StatusMessage)
     {
@@ -170,7 +170,7 @@ class Confirmation
 
     /**
      * @param ConfirmationStatus $StatusType
-     * @return \DdD\\Stock\Confirmation
+     * @return \DdD\Stock\Confirmation
      */
     public function setStatusType($StatusType)
     {
@@ -188,7 +188,7 @@ class Confirmation
 
     /**
      * @param int $StoreNo
-     * @return \DdD\\Stock\Confirmation
+     * @return \DdD\Stock\Confirmation
      */
     public function setStoreNo($StoreNo)
     {

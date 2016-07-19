@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class MakeDeliveryNoteResponse
 {
@@ -28,7 +28,7 @@ class MakeDeliveryNoteResponse
 
     /**
      * @param ArticleResponse $MakeDeliveryNoteResult
-     * @return \DdD\\Stock\MakeDeliveryNoteResponse
+     * @return \DdD\Stock\MakeDeliveryNoteResponse
      */
     public function setMakeDeliveryNoteResult($MakeDeliveryNoteResult)
     {

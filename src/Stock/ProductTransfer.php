@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ProductTransfer
 {
@@ -54,7 +54,7 @@ class ProductTransfer
 
     /**
      * @param \DateTime $DateOfTransfer
-     * @return \DdD\\Stock\ProductTransfer
+     * @return \DdD\Stock\ProductTransfer
      */
     public function setDateOfTransfer(\DateTime $DateOfTransfer = null)
     {
@@ -76,7 +76,7 @@ class ProductTransfer
 
     /**
      * @param ArrayOfArticleLine $ProductLines
-     * @return \DdD\\Stock\ProductTransfer
+     * @return \DdD\Stock\ProductTransfer
      */
     public function setProductLines($ProductLines)
     {
@@ -94,7 +94,7 @@ class ProductTransfer
 
     /**
      * @param int $ReceiptNumber
-     * @return \DdD\\Stock\ProductTransfer
+     * @return \DdD\Stock\ProductTransfer
      */
     public function setReceiptNumber($ReceiptNumber)
     {
@@ -112,7 +112,7 @@ class ProductTransfer
 
     /**
      * @param Client $RecievingClient
-     * @return \DdD\\Stock\ProductTransfer
+     * @return \DdD\Stock\ProductTransfer
      */
     public function setRecievingClient($RecievingClient)
     {
@@ -130,7 +130,7 @@ class ProductTransfer
 
     /**
      * @param Client $SenderClient
-     * @return \DdD\\Stock\ProductTransfer
+     * @return \DdD\Stock\ProductTransfer
      */
     public function setSenderClient($SenderClient)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetClerkAndShopInfo
 {
@@ -42,7 +42,7 @@ class GetClerkAndShopInfo
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetClerkAndShopInfo
+     * @return \DdD\Stock\GetClerkAndShopInfo
      */
     public function setClientid($clientid)
     {
@@ -60,7 +60,7 @@ class GetClerkAndShopInfo
 
     /**
      * @param boolean $onlyShopInfo
-     * @return \DdD\\Stock\GetClerkAndShopInfo
+     * @return \DdD\Stock\GetClerkAndShopInfo
      */
     public function setOnlyShopInfo($onlyShopInfo)
     {
@@ -78,7 +78,7 @@ class GetClerkAndShopInfo
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetClerkAndShopInfo
+     * @return \DdD\Stock\GetClerkAndShopInfo
      */
     public function setPsk($psk)
     {

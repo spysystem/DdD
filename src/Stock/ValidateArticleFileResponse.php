@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ValidateArticleFileResponse
 {
@@ -28,7 +28,7 @@ class ValidateArticleFileResponse
 
     /**
      * @param ArrayOfArticleLineValidation $ValidateArticleFileResult
-     * @return \DdD\\Stock\ValidateArticleFileResponse
+     * @return \DdD\Stock\ValidateArticleFileResponse
      */
     public function setValidateArticleFileResult($ValidateArticleFileResult)
     {

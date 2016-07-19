@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class StockCountByParameter
 {
@@ -42,7 +42,7 @@ class StockCountByParameter
 
     /**
      * @param ArrayOflong $eans
-     * @return \DdD\\Stock\StockCountByParameter
+     * @return \DdD\Stock\StockCountByParameter
      */
     public function setEans($eans)
     {
@@ -60,7 +60,7 @@ class StockCountByParameter
 
     /**
      * @param int $client
-     * @return \DdD\\Stock\StockCountByParameter
+     * @return \DdD\Stock\StockCountByParameter
      */
     public function setClient($client)
     {
@@ -78,7 +78,7 @@ class StockCountByParameter
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\StockCountByParameter
+     * @return \DdD\Stock\StockCountByParameter
      */
     public function setPsk($psk)
     {

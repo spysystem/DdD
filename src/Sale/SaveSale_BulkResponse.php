@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaveSale_BulkResponse
 {
@@ -28,7 +28,7 @@ class SaveSale_BulkResponse
 
     /**
      * @param ArrayOfStatus $SaveSale_BulkResult
-     * @return \DdD\\Sale\SaveSale_BulkResponse
+     * @return \DdD\Sale\SaveSale_BulkResponse
      */
     public function setSaveSale_BulkResult($SaveSale_BulkResult)
     {

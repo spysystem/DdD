@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class KeyValueOfintdecimal
 {
@@ -35,7 +35,7 @@ class KeyValueOfintdecimal
 
     /**
      * @param int $Key
-     * @return \DdD\\Sale\KeyValueOfintdecimal
+     * @return \DdD\Sale\KeyValueOfintdecimal
      */
     public function setKey($Key)
     {
@@ -53,7 +53,7 @@ class KeyValueOfintdecimal
 
     /**
      * @param float $Value
-     * @return \DdD\\Sale\KeyValueOfintdecimal
+     * @return \DdD\Sale\KeyValueOfintdecimal
      */
     public function setValue($Value)
     {

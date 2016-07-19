@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfKeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfKeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C implements \ArrayAcces
 
     /**
      * @param KeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C[] $KeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C
-     * @return \DdD\\Sale\ArrayOfKeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C
+     * @return \DdD\Sale\ArrayOfKeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C
      */
     public function setKeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C(array $KeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C = null)
     {

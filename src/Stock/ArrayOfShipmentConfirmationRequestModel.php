@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfShipmentConfirmationRequestModel implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfShipmentConfirmationRequestModel implements \ArrayAccess, \Iterator
 
     /**
      * @param ShipmentConfirmationRequestModel[] $ShipmentConfirmationRequestModel
-     * @return \DdD\\Stock\ArrayOfShipmentConfirmationRequestModel
+     * @return \DdD\Stock\ArrayOfShipmentConfirmationRequestModel
      */
     public function setShipmentConfirmationRequestModel(array $ShipmentConfirmationRequestModel = null)
     {

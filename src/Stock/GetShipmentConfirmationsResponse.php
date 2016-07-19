@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetShipmentConfirmationsResponse
 {
@@ -28,7 +28,7 @@ class GetShipmentConfirmationsResponse
 
     /**
      * @param ArrayOfShipmentConfirmation $GetShipmentConfirmationsResult
-     * @return \DdD\\Stock\GetShipmentConfirmationsResponse
+     * @return \DdD\Stock\GetShipmentConfirmationsResponse
      */
     public function setGetShipmentConfirmationsResult($GetShipmentConfirmationsResult)
     {

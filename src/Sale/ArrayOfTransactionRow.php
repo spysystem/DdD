@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfTransactionRow implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfTransactionRow implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param TransactionRow[] $TransactionRow
-     * @return \DdD\\Sale\ArrayOfTransactionRow
+     * @return \DdD\Sale\ArrayOfTransactionRow
      */
     public function setTransactionRow(array $TransactionRow = null)
     {

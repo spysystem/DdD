@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaveSale_Bulk
 {
@@ -35,7 +35,7 @@ class SaveSale_Bulk
 
     /**
      * @param ArrayOfSale $sales
-     * @return \DdD\\Sale\SaveSale_Bulk
+     * @return \DdD\Sale\SaveSale_Bulk
      */
     public function setSales($sales)
     {
@@ -53,7 +53,7 @@ class SaveSale_Bulk
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\SaveSale_Bulk
+     * @return \DdD\Sale\SaveSale_Bulk
      */
     public function setPsk($psk)
     {

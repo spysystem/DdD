@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class WebOrdersReadyForPickResponse
 {
@@ -28,7 +28,7 @@ class WebOrdersReadyForPickResponse
 
     /**
      * @param boolean $WebOrdersReadyForPickResult
-     * @return \DdD\\Sale\WebOrdersReadyForPickResponse
+     * @return \DdD\Sale\WebOrdersReadyForPickResponse
      */
     public function setWebOrdersReadyForPickResult($WebOrdersReadyForPickResult)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class Client
 {
@@ -31,7 +31,7 @@ class Client
 
     /**
      * @param int $Id
-     * @return \DdD\\Stock\Client
+     * @return \DdD\Stock\Client
      */
     public function setId($Id)
     {
@@ -49,7 +49,7 @@ class Client
 
     /**
      * @param string $Name
-     * @return \DdD\\Stock\Client
+     * @return \DdD\Stock\Client
      */
     public function setName($Name)
     {

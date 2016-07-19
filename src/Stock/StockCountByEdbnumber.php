@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class StockCountByEdbnumber
 {
@@ -42,7 +42,7 @@ class StockCountByEdbnumber
 
     /**
      * @param ArrayOflong $edbnumbers
-     * @return \DdD\\Stock\StockCountByEdbnumber
+     * @return \DdD\Stock\StockCountByEdbnumber
      */
     public function setEdbnumbers($edbnumbers)
     {
@@ -60,7 +60,7 @@ class StockCountByEdbnumber
 
     /**
      * @param int $client
-     * @return \DdD\\Stock\StockCountByEdbnumber
+     * @return \DdD\Stock\StockCountByEdbnumber
      */
     public function setClient($client)
     {
@@ -78,7 +78,7 @@ class StockCountByEdbnumber
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\StockCountByEdbnumber
+     * @return \DdD\Stock\StockCountByEdbnumber
      */
     public function setPsk($psk)
     {

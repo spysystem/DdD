@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfPriceChange implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPriceChange implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param PriceChange[] $PriceChange
-     * @return \DdD\\Stock\ArrayOfPriceChange
+     * @return \DdD\Stock\ArrayOfPriceChange
      */
     public function setPriceChange(array $PriceChange = null)
     {

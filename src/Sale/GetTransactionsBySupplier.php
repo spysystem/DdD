@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetTransactionsBySupplier
 {
@@ -63,7 +63,7 @@ class GetTransactionsBySupplier
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetTransactionsBySupplier
+     * @return \DdD\Sale\GetTransactionsBySupplier
      */
     public function setClient($client)
     {
@@ -89,7 +89,7 @@ class GetTransactionsBySupplier
 
     /**
      * @param \DateTime $datefrom
-     * @return \DdD\\Sale\GetTransactionsBySupplier
+     * @return \DdD\Sale\GetTransactionsBySupplier
      */
     public function setDatefrom(\DateTime $datefrom)
     {
@@ -115,7 +115,7 @@ class GetTransactionsBySupplier
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetTransactionsBySupplier
+     * @return \DdD\Sale\GetTransactionsBySupplier
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -133,7 +133,7 @@ class GetTransactionsBySupplier
 
     /**
      * @param OrderableRowType $typeOfTransaction
-     * @return \DdD\\Sale\GetTransactionsBySupplier
+     * @return \DdD\Sale\GetTransactionsBySupplier
      */
     public function setTypeOfTransaction($typeOfTransaction)
     {
@@ -151,7 +151,7 @@ class GetTransactionsBySupplier
 
     /**
      * @param ArrayOfstring $nameOfSuppliers
-     * @return \DdD\\Sale\GetTransactionsBySupplier
+     * @return \DdD\Sale\GetTransactionsBySupplier
      */
     public function setNameOfSuppliers($nameOfSuppliers)
     {
@@ -169,7 +169,7 @@ class GetTransactionsBySupplier
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetTransactionsBySupplier
+     * @return \DdD\Sale\GetTransactionsBySupplier
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class UpdateProductTransfers
 {
@@ -49,7 +49,7 @@ class UpdateProductTransfers
 
     /**
      * @param int $clientId
-     * @return \DdD\\Stock\UpdateProductTransfers
+     * @return \DdD\Stock\UpdateProductTransfers
      */
     public function setClientId($clientId)
     {
@@ -67,7 +67,7 @@ class UpdateProductTransfers
 
     /**
      * @param int $toClientId
-     * @return \DdD\\Stock\UpdateProductTransfers
+     * @return \DdD\Stock\UpdateProductTransfers
      */
     public function setToClientId($toClientId)
     {
@@ -85,7 +85,7 @@ class UpdateProductTransfers
 
     /**
      * @param int $receiptNumber
-     * @return \DdD\\Stock\UpdateProductTransfers
+     * @return \DdD\Stock\UpdateProductTransfers
      */
     public function setReceiptNumber($receiptNumber)
     {
@@ -103,7 +103,7 @@ class UpdateProductTransfers
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\UpdateProductTransfers
+     * @return \DdD\Stock\UpdateProductTransfers
      */
     public function setPsk($psk)
     {

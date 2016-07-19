@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ItemLine
 {
@@ -101,7 +101,7 @@ class ItemLine
 
     /**
      * @param int $BarcodeUsed
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setBarcodeUsed($BarcodeUsed)
     {
@@ -119,7 +119,7 @@ class ItemLine
 
     /**
      * @param float $CostPrice
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setCostPrice($CostPrice)
     {
@@ -137,7 +137,7 @@ class ItemLine
 
     /**
      * @param string $CustomerNumber
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setCustomerNumber($CustomerNumber)
     {
@@ -155,7 +155,7 @@ class ItemLine
 
     /**
      * @param float $DiscountAmount
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setDiscountAmount($DiscountAmount)
     {
@@ -173,7 +173,7 @@ class ItemLine
 
     /**
      * @param int $DiscountCode
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setDiscountCode($DiscountCode)
     {
@@ -191,7 +191,7 @@ class ItemLine
 
     /**
      * @param int $EDBNumber
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setEDBNumber($EDBNumber)
     {
@@ -209,7 +209,7 @@ class ItemLine
 
     /**
      * @param string $GiftCertificate
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setGiftCertificate($GiftCertificate)
     {
@@ -227,7 +227,7 @@ class ItemLine
 
     /**
      * @param int $ItemGroup
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setItemGroup($ItemGroup)
     {
@@ -245,7 +245,7 @@ class ItemLine
 
     /**
      * @param float $LineAmount
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setLineAmount($LineAmount)
     {
@@ -263,7 +263,7 @@ class ItemLine
 
     /**
      * @param float $LoyaltyMoneyUsed
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setLoyaltyMoneyUsed($LoyaltyMoneyUsed)
     {
@@ -281,7 +281,7 @@ class ItemLine
 
     /**
      * @param float $Qty
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setQty($Qty)
     {
@@ -299,7 +299,7 @@ class ItemLine
 
     /**
      * @param int $ReturnCode
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setReturnCode($ReturnCode)
     {
@@ -317,7 +317,7 @@ class ItemLine
 
     /**
      * @param int $Supplier
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setSupplier($Supplier)
     {
@@ -343,7 +343,7 @@ class ItemLine
 
     /**
      * @param \DateTime $Time
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setTime(\DateTime $Time = null)
     {
@@ -365,7 +365,7 @@ class ItemLine
 
     /**
      * @param string $TransferToStore
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setTransferToStore($TransferToStore)
     {
@@ -383,7 +383,7 @@ class ItemLine
 
     /**
      * @param ItemLineType $Type
-     * @return \DdD\\Sale\ItemLine
+     * @return \DdD\Sale\ItemLine
      */
     public function setType($Type)
     {

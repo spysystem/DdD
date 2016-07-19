@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetItemgroups
 {
@@ -35,7 +35,7 @@ class GetItemgroups
 
     /**
      * @param int $groupid
-     * @return \DdD\\Stock\GetItemgroups
+     * @return \DdD\Stock\GetItemgroups
      */
     public function setGroupid($groupid)
     {
@@ -53,7 +53,7 @@ class GetItemgroups
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetItemgroups
+     * @return \DdD\Stock\GetItemgroups
      */
     public function setPsk($psk)
     {

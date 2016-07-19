@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetTransactionsSinceLastNumber
 {
@@ -63,7 +63,7 @@ class GetTransactionsSinceLastNumber
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumber
+     * @return \DdD\Sale\GetTransactionsSinceLastNumber
      */
     public function setClient($client)
     {
@@ -89,7 +89,7 @@ class GetTransactionsSinceLastNumber
 
     /**
      * @param \DateTime $datefrom
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumber
+     * @return \DdD\Sale\GetTransactionsSinceLastNumber
      */
     public function setDatefrom(\DateTime $datefrom)
     {
@@ -115,7 +115,7 @@ class GetTransactionsSinceLastNumber
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumber
+     * @return \DdD\Sale\GetTransactionsSinceLastNumber
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -133,7 +133,7 @@ class GetTransactionsSinceLastNumber
 
     /**
      * @param OrderableRowType $typeOfTransaction
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumber
+     * @return \DdD\Sale\GetTransactionsSinceLastNumber
      */
     public function setTypeOfTransaction($typeOfTransaction)
     {
@@ -151,7 +151,7 @@ class GetTransactionsSinceLastNumber
 
     /**
      * @param int $lastTransactionNumber
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumber
+     * @return \DdD\Sale\GetTransactionsSinceLastNumber
      */
     public function setLastTransactionNumber($lastTransactionNumber)
     {
@@ -169,7 +169,7 @@ class GetTransactionsSinceLastNumber
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetTransactionsSinceLastNumber
+     * @return \DdD\Sale\GetTransactionsSinceLastNumber
      */
     public function setPsk($psk)
     {

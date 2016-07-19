@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticlesSinceLastRequestResponse
 {
@@ -28,7 +28,7 @@ class GetWebshopArticlesSinceLastRequestResponse
 
     /**
      * @param string $GetWebshopArticlesSinceLastRequestResult
-     * @return \DdD\\Stock\GetWebshopArticlesSinceLastRequestResponse
+     * @return \DdD\Stock\GetWebshopArticlesSinceLastRequestResponse
      */
     public function setGetWebshopArticlesSinceLastRequestResult($GetWebshopArticlesSinceLastRequestResult)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetKeyFigures
 {
@@ -49,7 +49,7 @@ class GetKeyFigures
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetKeyFigures
+     * @return \DdD\Sale\GetKeyFigures
      */
     public function setClient($client)
     {
@@ -75,7 +75,7 @@ class GetKeyFigures
 
     /**
      * @param \DateTime $datefrom
-     * @return \DdD\\Sale\GetKeyFigures
+     * @return \DdD\Sale\GetKeyFigures
      */
     public function setDatefrom(\DateTime $datefrom)
     {
@@ -101,7 +101,7 @@ class GetKeyFigures
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetKeyFigures
+     * @return \DdD\Sale\GetKeyFigures
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -119,7 +119,7 @@ class GetKeyFigures
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetKeyFigures
+     * @return \DdD\Sale\GetKeyFigures
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GenerateGiftcertificateNumberResponse
 {
@@ -28,7 +28,7 @@ class GenerateGiftcertificateNumberResponse
 
     /**
      * @param string $GenerateGiftcertificateNumberResult
-     * @return \DdD\\Sale\GenerateGiftcertificateNumberResponse
+     * @return \DdD\Sale\GenerateGiftcertificateNumberResponse
      */
     public function setGenerateGiftcertificateNumberResult($GenerateGiftcertificateNumberResult)
     {

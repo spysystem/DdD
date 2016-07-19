@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class WebPosParkedReceiptsResponse
 {
@@ -28,7 +28,7 @@ class WebPosParkedReceiptsResponse
 
     /**
      * @param string $WebPosParkedReceiptsResult
-     * @return \DdD\\Sale\WebPosParkedReceiptsResponse
+     * @return \DdD\Sale\WebPosParkedReceiptsResponse
      */
     public function setWebPosParkedReceiptsResult($WebPosParkedReceiptsResult)
     {

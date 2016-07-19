@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GenerateGiftcertificateNumber
 {
@@ -49,7 +49,7 @@ class GenerateGiftcertificateNumber
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GenerateGiftcertificateNumber
+     * @return \DdD\Sale\GenerateGiftcertificateNumber
      */
     public function setClient($client)
     {
@@ -67,7 +67,7 @@ class GenerateGiftcertificateNumber
 
     /**
      * @param int $terminal
-     * @return \DdD\\Sale\GenerateGiftcertificateNumber
+     * @return \DdD\Sale\GenerateGiftcertificateNumber
      */
     public function setTerminal($terminal)
     {
@@ -85,7 +85,7 @@ class GenerateGiftcertificateNumber
 
     /**
      * @param int $amount
-     * @return \DdD\\Sale\GenerateGiftcertificateNumber
+     * @return \DdD\Sale\GenerateGiftcertificateNumber
      */
     public function setAmount($amount)
     {
@@ -103,7 +103,7 @@ class GenerateGiftcertificateNumber
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GenerateGiftcertificateNumber
+     * @return \DdD\Sale\GenerateGiftcertificateNumber
      */
     public function setPsk($psk)
     {

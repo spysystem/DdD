@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetSalesSinceDateTime
 {
@@ -56,7 +56,7 @@ class GetSalesSinceDateTime
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetSalesSinceDateTime
+     * @return \DdD\Sale\GetSalesSinceDateTime
      */
     public function setClient($client)
     {
@@ -82,7 +82,7 @@ class GetSalesSinceDateTime
 
     /**
      * @param \DateTime $dateFrom
-     * @return \DdD\\Sale\GetSalesSinceDateTime
+     * @return \DdD\Sale\GetSalesSinceDateTime
      */
     public function setDateFrom(\DateTime $dateFrom)
     {
@@ -108,7 +108,7 @@ class GetSalesSinceDateTime
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetSalesSinceDateTime
+     * @return \DdD\Sale\GetSalesSinceDateTime
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -134,7 +134,7 @@ class GetSalesSinceDateTime
 
     /**
      * @param \DateTime $latestSale
-     * @return \DdD\\Sale\GetSalesSinceDateTime
+     * @return \DdD\Sale\GetSalesSinceDateTime
      */
     public function setLatestSale(\DateTime $latestSale)
     {
@@ -152,7 +152,7 @@ class GetSalesSinceDateTime
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetSalesSinceDateTime
+     * @return \DdD\Sale\GetSalesSinceDateTime
      */
     public function setPsk($psk)
     {

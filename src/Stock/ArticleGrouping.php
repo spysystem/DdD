@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArticleGrouping
 {
@@ -36,7 +36,7 @@ class ArticleGrouping
 
     /**
      * @param int $Id
-     * @return \DdD\\Stock\ArticleGrouping
+     * @return \DdD\Stock\ArticleGrouping
      */
     public function setId($Id)
     {
@@ -54,7 +54,7 @@ class ArticleGrouping
 
     /**
      * @param string $Name
-     * @return \DdD\\Stock\ArticleGrouping
+     * @return \DdD\Stock\ArticleGrouping
      */
     public function setName($Name)
     {
@@ -72,7 +72,7 @@ class ArticleGrouping
 
     /**
      * @param ArticleGroupType $TypeOfGrouping
-     * @return \DdD\\Stock\ArticleGrouping
+     * @return \DdD\Stock\ArticleGrouping
      */
     public function setTypeOfGrouping($TypeOfGrouping)
     {

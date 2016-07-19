@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetFirstMachineNumber
 {
@@ -35,7 +35,7 @@ class GetFirstMachineNumber
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetFirstMachineNumber
+     * @return \DdD\Stock\GetFirstMachineNumber
      */
     public function setClientid($clientid)
     {
@@ -53,7 +53,7 @@ class GetFirstMachineNumber
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetFirstMachineNumber
+     * @return \DdD\Stock\GetFirstMachineNumber
      */
     public function setPsk($psk)
     {

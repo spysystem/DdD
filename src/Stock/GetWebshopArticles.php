@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetWebshopArticles
 {
@@ -35,7 +35,7 @@ class GetWebshopArticles
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetWebshopArticles
+     * @return \DdD\Stock\GetWebshopArticles
      */
     public function setClientid($clientid)
     {
@@ -53,7 +53,7 @@ class GetWebshopArticles
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetWebshopArticles
+     * @return \DdD\Stock\GetWebshopArticles
      */
     public function setPsk($psk)
     {

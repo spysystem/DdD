@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class StockCountSingleEan
 {
@@ -42,7 +42,7 @@ class StockCountSingleEan
 
     /**
      * @param int $ean
-     * @return \DdD\\Stock\StockCountSingleEan
+     * @return \DdD\Stock\StockCountSingleEan
      */
     public function setEan($ean)
     {
@@ -60,7 +60,7 @@ class StockCountSingleEan
 
     /**
      * @param int $client
-     * @return \DdD\\Stock\StockCountSingleEan
+     * @return \DdD\Stock\StockCountSingleEan
      */
     public function setClient($client)
     {
@@ -78,7 +78,7 @@ class StockCountSingleEan
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\StockCountSingleEan
+     * @return \DdD\Stock\StockCountSingleEan
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class KeyValueOfstringArticleResponsezJ_S5Vm7C
 {
@@ -35,7 +35,7 @@ class KeyValueOfstringArticleResponsezJ_S5Vm7C
 
     /**
      * @param string $Key
-     * @return \DdD\\Stock\KeyValueOfstringArticleResponsezJ_S5Vm7C
+     * @return \DdD\Stock\KeyValueOfstringArticleResponsezJ_S5Vm7C
      */
     public function setKey($Key)
     {
@@ -53,7 +53,7 @@ class KeyValueOfstringArticleResponsezJ_S5Vm7C
 
     /**
      * @param ArticleResponse $Value
-     * @return \DdD\\Stock\KeyValueOfstringArticleResponsezJ_S5Vm7C
+     * @return \DdD\Stock\KeyValueOfstringArticleResponsezJ_S5Vm7C
      */
     public function setValue($Value)
     {

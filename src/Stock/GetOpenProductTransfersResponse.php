@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetOpenProductTransfersResponse
 {
@@ -28,7 +28,7 @@ class GetOpenProductTransfersResponse
 
     /**
      * @param ArrayOfProductTransfer $GetOpenProductTransfersResult
-     * @return \DdD\\Stock\GetOpenProductTransfersResponse
+     * @return \DdD\Stock\GetOpenProductTransfersResponse
      */
     public function setGetOpenProductTransfersResult($GetOpenProductTransfersResult)
     {

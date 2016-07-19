@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfArticleLine implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfArticleLine implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ArticleLine[] $ArticleLine
-     * @return \DdD\\Stock\ArrayOfArticleLine
+     * @return \DdD\Stock\ArrayOfArticleLine
      */
     public function setArticleLine(array $ArticleLine = null)
     {

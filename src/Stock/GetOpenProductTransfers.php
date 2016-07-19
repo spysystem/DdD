@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetOpenProductTransfers
 {
@@ -35,7 +35,7 @@ class GetOpenProductTransfers
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetOpenProductTransfers
+     * @return \DdD\Stock\GetOpenProductTransfers
      */
     public function setClientid($clientid)
     {
@@ -53,7 +53,7 @@ class GetOpenProductTransfers
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetOpenProductTransfers
+     * @return \DdD\Stock\GetOpenProductTransfers
      */
     public function setPsk($psk)
     {

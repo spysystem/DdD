@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class StockValueByBrandResponse
 {
@@ -28,7 +28,7 @@ class StockValueByBrandResponse
 
     /**
      * @param float $StockValueByBrandResult
-     * @return \DdD\\Stock\StockValueByBrandResponse
+     * @return \DdD\Stock\StockValueByBrandResponse
      */
     public function setStockValueByBrandResult($StockValueByBrandResult)
     {

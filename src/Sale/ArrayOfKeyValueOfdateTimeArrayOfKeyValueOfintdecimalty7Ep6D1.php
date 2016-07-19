@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfKeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1 implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfKeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1 implements \A
 
     /**
      * @param KeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1[] $KeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1
-     * @return \DdD\\Sale\ArrayOfKeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1
+     * @return \DdD\Sale\ArrayOfKeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1
      */
     public function setKeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1(array $KeyValueOfdateTimeArrayOfKeyValueOfintdecimalty7Ep6D1 = null)
     {

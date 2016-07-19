@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ArrayOfWebOrder implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfWebOrder implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param WebOrder[] $WebOrder
-     * @return \DdD\\Sale\ArrayOfWebOrder
+     * @return \DdD\Sale\ArrayOfWebOrder
      */
     public function setWebOrder(array $WebOrder = null)
     {

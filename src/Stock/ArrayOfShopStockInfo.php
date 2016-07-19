@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfShopStockInfo implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfShopStockInfo implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ShopStockInfo[] $ShopStockInfo
-     * @return \DdD\\Stock\ArrayOfShopStockInfo
+     * @return \DdD\Stock\ArrayOfShopStockInfo
      */
     public function setShopStockInfo(array $ShopStockInfo = null)
     {

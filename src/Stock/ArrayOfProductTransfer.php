@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfProductTransfer implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfProductTransfer implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ProductTransfer[] $ProductTransfer
-     * @return \DdD\\Stock\ArrayOfProductTransfer
+     * @return \DdD\Stock\ArrayOfProductTransfer
      */
     public function setProductTransfer(array $ProductTransfer = null)
     {

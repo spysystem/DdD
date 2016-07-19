@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class StockValueByBrand
 {
@@ -49,7 +49,7 @@ class StockValueByBrand
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\StockValueByBrand
+     * @return \DdD\Stock\StockValueByBrand
      */
     public function setClientid($clientid)
     {
@@ -75,7 +75,7 @@ class StockValueByBrand
 
     /**
      * @param \DateTime $date
-     * @return \DdD\\Stock\StockValueByBrand
+     * @return \DdD\Stock\StockValueByBrand
      */
     public function setDate(\DateTime $date)
     {
@@ -93,7 +93,7 @@ class StockValueByBrand
 
     /**
      * @param int $brandOrSupplier
-     * @return \DdD\\Stock\StockValueByBrand
+     * @return \DdD\Stock\StockValueByBrand
      */
     public function setBrandOrSupplier($brandOrSupplier)
     {
@@ -111,7 +111,7 @@ class StockValueByBrand
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\StockValueByBrand
+     * @return \DdD\Stock\StockValueByBrand
      */
     public function setPsk($psk)
     {

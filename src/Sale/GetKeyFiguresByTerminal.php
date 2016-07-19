@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetKeyFiguresByTerminal
 {
@@ -49,7 +49,7 @@ class GetKeyFiguresByTerminal
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\GetKeyFiguresByTerminal
+     * @return \DdD\Sale\GetKeyFiguresByTerminal
      */
     public function setClient($client)
     {
@@ -75,7 +75,7 @@ class GetKeyFiguresByTerminal
 
     /**
      * @param \DateTime $datefrom
-     * @return \DdD\\Sale\GetKeyFiguresByTerminal
+     * @return \DdD\Sale\GetKeyFiguresByTerminal
      */
     public function setDatefrom(\DateTime $datefrom)
     {
@@ -101,7 +101,7 @@ class GetKeyFiguresByTerminal
 
     /**
      * @param \DateTime $dateTo
-     * @return \DdD\\Sale\GetKeyFiguresByTerminal
+     * @return \DdD\Sale\GetKeyFiguresByTerminal
      */
     public function setDateTo(\DateTime $dateTo)
     {
@@ -119,7 +119,7 @@ class GetKeyFiguresByTerminal
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\GetKeyFiguresByTerminal
+     * @return \DdD\Sale\GetKeyFiguresByTerminal
      */
     public function setPsk($psk)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class RetrySalesResponse
 {
@@ -28,7 +28,7 @@ class RetrySalesResponse
 
     /**
      * @param Retry $RetrySalesResult
-     * @return \DdD\\Sale\RetrySalesResponse
+     * @return \DdD\Sale\RetrySalesResponse
      */
     public function setRetrySalesResult($RetrySalesResult)
     {

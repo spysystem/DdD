@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetArticleInformation
 {
@@ -42,7 +42,7 @@ class GetArticleInformation
 
     /**
      * @param ArrayOflong $eans
-     * @return \DdD\\Stock\GetArticleInformation
+     * @return \DdD\Stock\GetArticleInformation
      */
     public function setEans($eans)
     {
@@ -60,7 +60,7 @@ class GetArticleInformation
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetArticleInformation
+     * @return \DdD\Stock\GetArticleInformation
      */
     public function setClientid($clientid)
     {
@@ -78,7 +78,7 @@ class GetArticleInformation
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetArticleInformation
+     * @return \DdD\Stock\GetArticleInformation
      */
     public function setPsk($psk)
     {

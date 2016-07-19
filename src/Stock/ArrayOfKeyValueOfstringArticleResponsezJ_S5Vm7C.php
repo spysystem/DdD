@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfKeyValueOfstringArticleResponsezJ_S5Vm7C implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfKeyValueOfstringArticleResponsezJ_S5Vm7C implements \ArrayAccess, \
 
     /**
      * @param KeyValueOfstringArticleResponsezJ_S5Vm7C[] $KeyValueOfstringArticleResponsezJ_S5Vm7C
-     * @return \DdD\\Stock\ArrayOfKeyValueOfstringArticleResponsezJ_S5Vm7C
+     * @return \DdD\Stock\ArrayOfKeyValueOfstringArticleResponsezJ_S5Vm7C
      */
     public function setKeyValueOfstringArticleResponsezJ_S5Vm7C(array $KeyValueOfstringArticleResponsezJ_S5Vm7C = null)
     {

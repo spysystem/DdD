@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ShopStockInfo extends SimpleShopStockInfo
 {
@@ -36,7 +36,7 @@ class ShopStockInfo extends SimpleShopStockInfo
 
     /**
      * @param int $GroupId
-     * @return \DdD\\Stock\ShopStockInfo
+     * @return \DdD\Stock\ShopStockInfo
      */
     public function setGroupId($GroupId)
     {
@@ -54,7 +54,7 @@ class ShopStockInfo extends SimpleShopStockInfo
 
     /**
      * @param string $ItemGroupDescription
-     * @return \DdD\\Stock\ShopStockInfo
+     * @return \DdD\Stock\ShopStockInfo
      */
     public function setItemGroupDescription($ItemGroupDescription)
     {
@@ -72,7 +72,7 @@ class ShopStockInfo extends SimpleShopStockInfo
 
     /**
      * @param int $ItemGroupId
-     * @return \DdD\\Stock\ShopStockInfo
+     * @return \DdD\Stock\ShopStockInfo
      */
     public function setItemGroupId($ItemGroupId)
     {

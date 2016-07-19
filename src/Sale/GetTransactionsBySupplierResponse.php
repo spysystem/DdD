@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetTransactionsBySupplierResponse
 {
@@ -28,7 +28,7 @@ class GetTransactionsBySupplierResponse
 
     /**
      * @param ArrayOfKeyValueOfdateTimeTransactionHeaderzJ_S5Vm7C $GetTransactionsBySupplierResult
-     * @return \DdD\\Sale\GetTransactionsBySupplierResponse
+     * @return \DdD\Sale\GetTransactionsBySupplierResponse
      */
     public function setGetTransactionsBySupplierResult($GetTransactionsBySupplierResult)
     {

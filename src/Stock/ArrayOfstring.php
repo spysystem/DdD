@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfstring implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfstring implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param string[] $string
-     * @return \DdD\\Stock\ArrayOfstring
+     * @return \DdD\Stock\ArrayOfstring
      */
     public function setString(array $string = null)
     {

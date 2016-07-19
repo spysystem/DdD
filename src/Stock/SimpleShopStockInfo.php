@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class SimpleShopStockInfo
 {
@@ -46,7 +46,7 @@ class SimpleShopStockInfo
 
     /**
      * @param int $Quantity
-     * @return \DdD\\Stock\SimpleShopStockInfo
+     * @return \DdD\Stock\SimpleShopStockInfo
      */
     public function setQuantity($Quantity)
     {
@@ -64,7 +64,7 @@ class SimpleShopStockInfo
 
     /**
      * @param float $StockValue
-     * @return \DdD\\Stock\SimpleShopStockInfo
+     * @return \DdD\Stock\SimpleShopStockInfo
      */
     public function setStockValue($StockValue)
     {
@@ -82,7 +82,7 @@ class SimpleShopStockInfo
 
     /**
      * @param int $StoreNumber
-     * @return \DdD\\Stock\SimpleShopStockInfo
+     * @return \DdD\Stock\SimpleShopStockInfo
      */
     public function setStoreNumber($StoreNumber)
     {
@@ -100,7 +100,7 @@ class SimpleShopStockInfo
 
     /**
      * @param string $SupplierName
-     * @return \DdD\\Stock\SimpleShopStockInfo
+     * @return \DdD\Stock\SimpleShopStockInfo
      */
     public function setSupplierName($SupplierName)
     {
@@ -118,7 +118,7 @@ class SimpleShopStockInfo
 
     /**
      * @param int $SupplierNumber
-     * @return \DdD\\Stock\SimpleShopStockInfo
+     * @return \DdD\Stock\SimpleShopStockInfo
      */
     public function setSupplierNumber($SupplierNumber)
     {

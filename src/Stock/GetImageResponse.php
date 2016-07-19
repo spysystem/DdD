@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetImageResponse
 {
@@ -28,7 +28,7 @@ class GetImageResponse
 
     /**
      * @param StreamBody $GetImageResult
-     * @return \DdD\\Stock\GetImageResponse
+     * @return \DdD\Stock\GetImageResponse
      */
     public function setGetImageResult($GetImageResult)
     {

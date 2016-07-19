@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetLastItemGroupIncludedInSaleResponse
 {
@@ -28,7 +28,7 @@ class GetLastItemGroupIncludedInSaleResponse
 
     /**
      * @param int $GetLastItemGroupIncludedInSaleResult
-     * @return \DdD\\Stock\GetLastItemGroupIncludedInSaleResponse
+     * @return \DdD\Stock\GetLastItemGroupIncludedInSaleResponse
      */
     public function setGetLastItemGroupIncludedInSaleResult($GetLastItemGroupIncludedInSaleResult)
     {

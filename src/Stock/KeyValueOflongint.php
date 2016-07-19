@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class KeyValueOflongint
 {
@@ -35,7 +35,7 @@ class KeyValueOflongint
 
     /**
      * @param int $Key
-     * @return \DdD\\Stock\KeyValueOflongint
+     * @return \DdD\Stock\KeyValueOflongint
      */
     public function setKey($Key)
     {
@@ -53,7 +53,7 @@ class KeyValueOflongint
 
     /**
      * @param int $Value
-     * @return \DdD\\Stock\KeyValueOflongint
+     * @return \DdD\Stock\KeyValueOflongint
      */
     public function setValue($Value)
     {

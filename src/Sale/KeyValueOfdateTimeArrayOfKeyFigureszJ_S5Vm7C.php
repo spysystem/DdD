@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class KeyValueOfdateTimeArrayOfKeyFigureszJ_S5Vm7C
 {
@@ -43,7 +43,7 @@ class KeyValueOfdateTimeArrayOfKeyFigureszJ_S5Vm7C
 
     /**
      * @param \DateTime $Key
-     * @return \DdD\\Sale\KeyValueOfdateTimeArrayOfKeyFigureszJ_S5Vm7C
+     * @return \DdD\Sale\KeyValueOfdateTimeArrayOfKeyFigureszJ_S5Vm7C
      */
     public function setKey(\DateTime $Key)
     {
@@ -61,7 +61,7 @@ class KeyValueOfdateTimeArrayOfKeyFigureszJ_S5Vm7C
 
     /**
      * @param ArrayOfKeyFigures $Value
-     * @return \DdD\\Sale\KeyValueOfdateTimeArrayOfKeyFigureszJ_S5Vm7C
+     * @return \DdD\Sale\KeyValueOfdateTimeArrayOfKeyFigureszJ_S5Vm7C
      */
     public function setValue($Value)
     {

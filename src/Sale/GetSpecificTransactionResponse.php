@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class GetSpecificTransactionResponse
 {
@@ -28,7 +28,7 @@ class GetSpecificTransactionResponse
 
     /**
      * @param TransactionHeader $GetSpecificTransactionResult
-     * @return \DdD\\Sale\GetSpecificTransactionResponse
+     * @return \DdD\Sale\GetSpecificTransactionResponse
      */
     public function setGetSpecificTransactionResult($GetSpecificTransactionResult)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetItemgroupsResponse
 {
@@ -28,7 +28,7 @@ class GetItemgroupsResponse
 
     /**
      * @param ArrayOfArticleGrouping $GetItemgroupsResult
-     * @return \DdD\\Stock\GetItemgroupsResponse
+     * @return \DdD\Stock\GetItemgroupsResponse
      */
     public function setGetItemgroupsResult($GetItemgroupsResult)
     {

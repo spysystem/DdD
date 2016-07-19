@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class StockCountInShopsResponse
 {
@@ -28,7 +28,7 @@ class StockCountInShopsResponse
 
     /**
      * @param ArrayOfKeyValueOfintArrayOfKeyValueOflongintty7Ep6D1 $StockCountInShopsResult
-     * @return \DdD\\Stock\StockCountInShopsResponse
+     * @return \DdD\Stock\StockCountInShopsResponse
      */
     public function setStockCountInShopsResult($StockCountInShopsResult)
     {

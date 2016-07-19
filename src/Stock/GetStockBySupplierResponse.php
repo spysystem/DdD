@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetStockBySupplierResponse
 {
@@ -28,7 +28,7 @@ class GetStockBySupplierResponse
 
     /**
      * @param ArrayOfArticleLine $GetStockBySupplierResult
-     * @return \DdD\\Stock\GetStockBySupplierResponse
+     * @return \DdD\Stock\GetStockBySupplierResponse
      */
     public function setGetStockBySupplierResult($GetStockBySupplierResult)
     {

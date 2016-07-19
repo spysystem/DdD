@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class Status
 {
@@ -41,7 +41,7 @@ class Status
 
     /**
      * @param int $LastSavedSale
-     * @return \DdD\\Sale\Status
+     * @return \DdD\Sale\Status
      */
     public function setLastSavedSale($LastSavedSale)
     {
@@ -59,7 +59,7 @@ class Status
 
     /**
      * @param string $Message
-     * @return \DdD\\Sale\Status
+     * @return \DdD\Sale\Status
      */
     public function setMessage($Message)
     {
@@ -77,7 +77,7 @@ class Status
 
     /**
      * @param boolean $SaleExists
-     * @return \DdD\\Sale\Status
+     * @return \DdD\Sale\Status
      */
     public function setSaleExists($SaleExists)
     {
@@ -95,7 +95,7 @@ class Status
 
     /**
      * @param boolean $Saved
-     * @return \DdD\\Sale\Status
+     * @return \DdD\Sale\Status
      */
     public function setSaved($Saved)
     {

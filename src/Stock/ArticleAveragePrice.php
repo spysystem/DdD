@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArticleAveragePrice
 {
@@ -49,7 +49,7 @@ class ArticleAveragePrice
 
     /**
      * @param int $supplier
-     * @return \DdD\\Stock\ArticleAveragePrice
+     * @return \DdD\Stock\ArticleAveragePrice
      */
     public function setSupplier($supplier)
     {
@@ -67,7 +67,7 @@ class ArticleAveragePrice
 
     /**
      * @param string $edbnumber
-     * @return \DdD\\Stock\ArticleAveragePrice
+     * @return \DdD\Stock\ArticleAveragePrice
      */
     public function setEdbnumber($edbnumber)
     {
@@ -85,7 +85,7 @@ class ArticleAveragePrice
 
     /**
      * @param int $client
-     * @return \DdD\\Stock\ArticleAveragePrice
+     * @return \DdD\Stock\ArticleAveragePrice
      */
     public function setClient($client)
     {
@@ -103,7 +103,7 @@ class ArticleAveragePrice
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\ArticleAveragePrice
+     * @return \DdD\Stock\ArticleAveragePrice
      */
     public function setPsk($psk)
     {

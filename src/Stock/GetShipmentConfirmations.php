@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetShipmentConfirmations
 {
@@ -42,7 +42,7 @@ class GetShipmentConfirmations
 
     /**
      * @param int $clientId
-     * @return \DdD\\Stock\GetShipmentConfirmations
+     * @return \DdD\Stock\GetShipmentConfirmations
      */
     public function setClientId($clientId)
     {
@@ -60,7 +60,7 @@ class GetShipmentConfirmations
 
     /**
      * @param ArrayOfShipmentConfirmationRequestModel $requestData
-     * @return \DdD\\Stock\GetShipmentConfirmations
+     * @return \DdD\Stock\GetShipmentConfirmations
      */
     public function setRequestData($requestData)
     {
@@ -78,7 +78,7 @@ class GetShipmentConfirmations
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetShipmentConfirmations
+     * @return \DdD\Stock\GetShipmentConfirmations
      */
     public function setPsk($psk)
     {

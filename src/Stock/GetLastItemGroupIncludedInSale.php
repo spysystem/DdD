@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class GetLastItemGroupIncludedInSale
 {
@@ -35,7 +35,7 @@ class GetLastItemGroupIncludedInSale
 
     /**
      * @param int $clientid
-     * @return \DdD\\Stock\GetLastItemGroupIncludedInSale
+     * @return \DdD\Stock\GetLastItemGroupIncludedInSale
      */
     public function setClientid($clientid)
     {
@@ -53,7 +53,7 @@ class GetLastItemGroupIncludedInSale
 
     /**
      * @param string $psk
-     * @return \DdD\\Stock\GetLastItemGroupIncludedInSale
+     * @return \DdD\Stock\GetLastItemGroupIncludedInSale
      */
     public function setPsk($psk)
     {

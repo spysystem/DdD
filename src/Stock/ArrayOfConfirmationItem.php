@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ArrayOfConfirmationItem implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfConfirmationItem implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ConfirmationItem[] $ConfirmationItem
-     * @return \DdD\\Stock\ArrayOfConfirmationItem
+     * @return \DdD\Stock\ArrayOfConfirmationItem
      */
     public function setConfirmationItem(array $ConfirmationItem = null)
     {

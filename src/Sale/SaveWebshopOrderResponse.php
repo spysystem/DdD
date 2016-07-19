@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class SaveWebshopOrderResponse
 {
@@ -28,7 +28,7 @@ class SaveWebshopOrderResponse
 
     /**
      * @param ResponseMessage $SaveWebshopOrderResult
-     * @return \DdD\\Sale\SaveWebshopOrderResponse
+     * @return \DdD\Sale\SaveWebshopOrderResponse
      */
     public function setSaveWebshopOrderResult($SaveWebshopOrderResult)
     {

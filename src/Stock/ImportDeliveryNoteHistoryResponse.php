@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class ImportDeliveryNoteHistoryResponse
 {
@@ -28,7 +28,7 @@ class ImportDeliveryNoteHistoryResponse
 
     /**
      * @param ArrayOfKeyValueOfstringArticleResponsezJ_S5Vm7C $ImportDeliveryNoteHistoryResult
-     * @return \DdD\\Stock\ImportDeliveryNoteHistoryResponse
+     * @return \DdD\Stock\ImportDeliveryNoteHistoryResponse
      */
     public function setImportDeliveryNoteHistoryResult($ImportDeliveryNoteHistoryResult)
     {

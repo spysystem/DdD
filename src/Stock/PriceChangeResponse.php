@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class PriceChangeResponse
 {
@@ -28,7 +28,7 @@ class PriceChangeResponse
 
     /**
      * @param ArticleResponse $PriceChangeResult
-     * @return \DdD\\Stock\PriceChangeResponse
+     * @return \DdD\Stock\PriceChangeResponse
      */
     public function setPriceChangeResult($PriceChangeResult)
     {

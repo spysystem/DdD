@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class ValidateCertificate
 {
@@ -42,7 +42,7 @@ class ValidateCertificate
 
     /**
      * @param int $client
-     * @return \DdD\\Sale\ValidateCertificate
+     * @return \DdD\Sale\ValidateCertificate
      */
     public function setClient($client)
     {
@@ -60,7 +60,7 @@ class ValidateCertificate
 
     /**
      * @param string $certificateNumber
-     * @return \DdD\\Sale\ValidateCertificate
+     * @return \DdD\Sale\ValidateCertificate
      */
     public function setCertificateNumber($certificateNumber)
     {
@@ -78,7 +78,7 @@ class ValidateCertificate
 
     /**
      * @param string $psk
-     * @return \DdD\\Sale\ValidateCertificate
+     * @return \DdD\Sale\ValidateCertificate
      */
     public function setPsk($psk)
     {

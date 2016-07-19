@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Sale;
+namespace DdD\Sale;
 
 class RemoveWebPosParkedReceiptsResponse
 {
@@ -28,7 +28,7 @@ class RemoveWebPosParkedReceiptsResponse
 
     /**
      * @param string $RemoveWebPosParkedReceiptsResult
-     * @return \DdD\\Sale\RemoveWebPosParkedReceiptsResponse
+     * @return \DdD\Sale\RemoveWebPosParkedReceiptsResponse
      */
     public function setRemoveWebPosParkedReceiptsResult($RemoveWebPosParkedReceiptsResult)
     {

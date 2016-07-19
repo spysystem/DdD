@@ -1,6 +1,6 @@
 <?php
 
-namespace DdD\\Stock;
+namespace DdD\Stock;
 
 class DeleteImagesResponse
 {
@@ -28,7 +28,7 @@ class DeleteImagesResponse
 
     /**
      * @param string $DeleteImagesResult
-     * @return \DdD\\Stock\DeleteImagesResponse
+     * @return \DdD\Stock\DeleteImagesResponse
      */
     public function setDeleteImagesResult($DeleteImagesResult)
     {

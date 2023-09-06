@@ -1,9 +1,9 @@
 {
 	"name": "spysystem/DdD",
-	"description": "PHP library for GUSNWS Web Services",
+	"description": "PHP library for DdD Web Services",
 	"license": "proprietary",
 	"require": {
-		"php": ">=5.3.0"
+		"php": "5.3 - 8.1"
 	},
 	"autoload": {
 		"psr-4": {
